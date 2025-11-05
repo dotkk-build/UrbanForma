@@ -4,6 +4,21 @@ This document records the version update history of the UrbanForma mod.
 
 ---
 
+## v1.05b - 2025-11-05
+**Japanese Localization and Version Update**
+
+### 🌍 Localization
+- **Japanese Language Support**: Added complete Japanese localization (ja_jp.json)
+- **Professional Translation**: Used authentic Japanese terminology and traditional color names
+- **Full Coverage**: Translated all 72 color block series and road system components
+
+### 🔧 Technical Improvements
+- Updated mod version to 1.05b
+- Enhanced language file structure consistency
+- Improved internationalization support
+
+---
+
 ## v1.03 - 2025-10-31
 **White Midline High Road Blocks Enhancement**
 

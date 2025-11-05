@@ -115,5 +115,37 @@
   "block.urbanforma.r_wl32": "道路白大弯1反向",
   "block.urbanforma.r_wl33": "道路白大弯2",
   "block.urbanforma.r_wl34": "道路白大弯2反向",
-  "block.urbanforma.r_wl35": "道路白大弯3"
+  "block.urbanforma.r_wl35": "道路白大弯3",
+  
+  "block.urbanforma.r_gray_h7": "灰色道路高7",
+  "block.urbanforma.r_gray_h6": "灰色道路高6",
+  "block.urbanforma.r_gray_h5": "灰色道路高5",
+  "block.urbanforma.r_gray_h4": "灰色道路高4",
+  "block.urbanforma.r_gray_h3": "灰色道路高3",
+  "block.urbanforma.r_gray_h2": "灰色道路高2",
+  "block.urbanforma.r_gray_h1": "灰色道路高1",
+  
+  "block.urbanforma.r_wl_h7": "道路白中线高7",
+  "block.urbanforma.r_wl_h6": "道路白中线高6",
+  "block.urbanforma.r_wl_h5": "道路白中线高5",
+  "block.urbanforma.r_wl_h4": "道路白中线高4",
+  "block.urbanforma.r_wl_h3": "道路白中线高3",
+  "block.urbanforma.r_wl_h2": "道路白中线高2",
+  "block.urbanforma.r_wl_h1": "道路白中线高1",
+  
+  "block.urbanforma.r_ll1": "道路双白线",
+  "block.urbanforma.r_x": "道路白虚线",
+  "block.urbanforma.r_js1": "道路白减速线",
+  "block.urbanforma.r_js2": "道路白减速线反向",
+  "block.urbanforma.r_l1_yj": "道路黄减速带连接",
+  "block.urbanforma.r_l1_y": "道路黄中线",
+  "block.urbanforma.r_ll1_y": "道路双黄线",
+  "block.urbanforma.r_x_y": "道路黄虚线",
+  
+  "block.urbanforma.b_huawei": "HUAWEI",
+  "block.urbanforma.b_xiaomi": "XIAOMI",
+  "block.urbanforma.b_apple": "APPLE",
+  
+  "block.urbanforma.l_bw": "LOGO背景墙",
+  "block.urbanforma.l_gbw": "LOGO发光背景墙"
 }

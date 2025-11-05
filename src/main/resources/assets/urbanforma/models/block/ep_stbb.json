@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "urbanforma:block/b_edo_purple",
+    "top": "urbanforma:block/b_edo_purple",
+    "side": "urbanforma:block/b_edo_purple"
+  }
+}

@@ -1,5 +1,7 @@
 {
-  "itemGroup.urbanforma": "Urban Forma",
+  "itemGroup.a_1_urbanforma_base": "Urban Forma Base",
+  "itemGroup.a_2_urbanforma_road": "Urban Forma Roads",
+  "itemGroup.a_3_urbanforma_other": "Urban Forma Others",
   
   "block.urbanforma.w_bb": "White Building Block",
   "block.urbanforma.w_gbb": "White Glowing Building Block",
@@ -64,5 +66,459 @@
   "block.urbanforma.b_bb": "Black Building Block",
   "block.urbanforma.b_gbb": "Black Glowing Building Block",
   "block.urbanforma.b_sbb": "Black Slab Building Block",
-  "block.urbanforma.b_stbb": "Black Stairs Building Block"
+  "block.urbanforma.b_stbb": "Black Stairs Building Block",
+  
+  "block.urbanforma.r_gray": "Gray Road",
+  "block.urbanforma.r_gray_g": "Gray Glowing Road",
+  "block.urbanforma.r_gray_s": "Gray Road Slab",
+  "block.urbanforma.r_lgray": "Light Gray Road",
+  "block.urbanforma.r_lgray_g": "Light Gray Glowing Road",
+  "block.urbanforma.r_lgray_s": "Light Gray Road Slab",
+  "block.urbanforma.r_white": "White Road",
+  "block.urbanforma.r_white_g": "White Glowing Road",
+  "block.urbanforma.r_white_s": "White Road Slab",
+  "block.urbanforma.r_wl1": "Road White Center Line",
+  "block.urbanforma.r_wl2": "Road White 45 Degree Line",
+  "block.urbanforma.r_wl3": "Road White 45 Degree Compensation Line",
+  "block.urbanforma.r_wl4": "Road White Zebra Crossing",
+  "block.urbanforma.r_wl5": "Road White Cross Line",
+  "block.urbanforma.r_wl6": "Road White T Line",
+  "block.urbanforma.r_wl7": "Road White Corner Line",
+  "block.urbanforma.r_wl8": "Road White 45 Degree Connection Line",
+  "block.urbanforma.r_wl9": "Road White 45 Degree Connection Line Reverse",
+  "block.urbanforma.r_wl10": "Road White Center Line End 1",
+  "block.urbanforma.r_wl11": "Road White Center Line End 2",
+  "block.urbanforma.r_wl1a": "Road White Thick Edge Line",
+  "block.urbanforma.r_wl1b": "Road White Edge Line",
+  "block.urbanforma.r_wl1c": "Road White Thin Edge Line",
+  "block.urbanforma.r_wl12": "Road White 45 Degree Connection Extension Line",
+  "block.urbanforma.r_wl13": "Road White 45 Degree Connection Extension Line Reverse",
+  "block.urbanforma.r_wl14": "Road White 45 Degree Connection Extension Compensation Line",
+  "block.urbanforma.r_wl15": "Road White 45 Degree Connection Extension Compensation Line Reverse",
+  "block.urbanforma.r_wl16": "Road White Edge Corner Line",
+  "block.urbanforma.r_wl17": "Road White Edge Corner Line Reverse",
+  "block.urbanforma.r_wl18": "Road White Small Curve",
+  "block.urbanforma.r_wl19": "Road White Medium Curve 1",
+  "block.urbanforma.r_wl20": "Road White Medium Curve 1 Reverse",
+  "block.urbanforma.r_wl21": "Road White Medium Curve 2",
+  "block.urbanforma.r_wl22": "Road White Medium Curve 2 Reverse",
+  "block.urbanforma.r_wl23": "Road White 45 Degree Curve 1",
+  "block.urbanforma.r_wl24": "Road White 45 Degree Curve 1 Reverse",
+  "block.urbanforma.r_wl25": "Road White 45 Degree Curve 2",
+  "block.urbanforma.r_wl26": "Road White 45 Degree Curve 2 Reverse",
+  "block.urbanforma.r_wl27": "Road White 45 Degree Curve 3",
+  "block.urbanforma.r_wl28": "Road White 45 Degree Curve 3 Reverse",
+  "block.urbanforma.r_wl29": "Road White 45 Degree Curve 4",
+  "block.urbanforma.r_wl30": "Road White 45 Degree Curve 4 Reverse",
+  "block.urbanforma.r_wl31": "Road White Large Curve 1",
+  "block.urbanforma.r_wl32": "Road White Large Curve 1 Reverse",
+  "block.urbanforma.r_wl33": "Road White Large Curve 2",
+  "block.urbanforma.r_wl34": "Road White Large Curve 2 Reverse",
+  "block.urbanforma.r_wl35": "Road White Large Curve 3",
+  
+  "block.urbanforma.r_gray_h7": "Gray Road Height 7",
+  "block.urbanforma.r_gray_h6": "Gray Road Height 6",
+  "block.urbanforma.r_gray_h5": "Gray Road Height 5",
+  "block.urbanforma.r_gray_h4": "Gray Road Height 4",
+  "block.urbanforma.r_gray_h3": "Gray Road Height 3",
+  "block.urbanforma.r_gray_h2": "Gray Road Height 2",
+  "block.urbanforma.r_gray_h1": "Gray Road Height 1",
+  
+  "block.urbanforma.r_wl_h7": "Road White Center Line Height 7",
+  "block.urbanforma.r_wl_h6": "Road White Center Line Height 6",
+  "block.urbanforma.r_wl_h5": "Road White Center Line Height 5",
+  "block.urbanforma.r_wl_h4": "Road White Center Line Height 4",
+  "block.urbanforma.r_wl_h3": "Road White Center Line Height 3",
+  "block.urbanforma.r_wl_h2": "Road White Center Line Height 2",
+  "block.urbanforma.r_wl_h1": "Road White Center Line Height 1",
+  
+  "block.urbanforma.r_ll1": "Road Double White Line",
+  "block.urbanforma.r_x": "Road White Dashed Line",
+  "block.urbanforma.r_js1": "Road White Speed Bump",
+  "block.urbanforma.r_js2": "Road White Speed Bump Reverse",
+  "block.urbanforma.r_l1_yj": "Road Yellow Speed Bump Connection",
+  "block.urbanforma.r_l1_y": "Road Yellow Center Line",
+  "block.urbanforma.r_ll1_y": "Road Double Yellow Line",
+  "block.urbanforma.r_x_y": "Road Yellow Dashed Line",
+  
+  // White line head series
+  "block.urbanforma.r_xt1x": "Road White Line Head 3x",
+  "block.urbanforma.r_xt2x": "Road White Line Head 6x",
+  "block.urbanforma.r_xt1xd": "Road White Line Head 3x Reverse",
+  "block.urbanforma.r_xt2xd": "Road White Line Head 6x Reverse",
+  
+  // Additional 72 color block series - First batch 4 colors (abbreviated)
+  "block.urbanforma.n_hb_bb": "Dark Gray White Building Block",
+  "block.urbanforma.n_hb_gbb": "Dark Gray White Glowing Building Block",
+  "block.urbanforma.n_hb_sbb": "Dark Gray White Slab Building Block",
+  "block.urbanforma.n_hb_stbb": "Dark Gray White Stairs Building Block",
+  
+  "block.urbanforma.xy_bb": "Ivory Building Block",
+  "block.urbanforma.xy_gbb": "Ivory Glowing Building Block",
+  "block.urbanforma.xy_sbb": "Ivory Slab Building Block",
+  "block.urbanforma.xy_stbb": "Ivory Stairs Building Block",
+  
+  "block.urbanforma.sc_bb": "Spawn Color Building Block",
+  "block.urbanforma.sc_gbb": "Spawn Color Glowing Building Block",
+  "block.urbanforma.sc_sbb": "Spawn Color Slab Building Block",
+  "block.urbanforma.sc_stbb": "Spawn Color Stairs Building Block",
+  
+  "block.urbanforma.yh_bb": "Cherry Blossom Building Block",
+  "block.urbanforma.yh_gbb": "Cherry Blossom Glowing Building Block",
+  "block.urbanforma.yh_sbb": "Cherry Blossom Slab Building Block",
+  "block.urbanforma.yh_stbb": "Cherry Blossom Stairs Building Block",
+  
+  // Additional 72 color block series - Second batch 4 colors (abbreviated)
+  "block.urbanforma.tb_bb": "Flamingo Color Building Block",
+  "block.urbanforma.tb_gbb": "Flamingo Color Glowing Building Block",
+  "block.urbanforma.tb_sbb": "Flamingo Color Slab Building Block",
+  "block.urbanforma.tb_stbb": "Flamingo Color Stairs Building Block",
+  
+  "block.urbanforma.sh_bb": "Coral Building Block",
+  "block.urbanforma.sh_gbb": "Coral Glowing Building Block",
+  "block.urbanforma.sh_sbb": "Coral Slab Building Block",
+  "block.urbanforma.sh_stbb": "Coral Stairs Building Block",
+  
+  "block.urbanforma.bk_bb": "Light Persimmon Building Block",
+  "block.urbanforma.bk_gbb": "Light Persimmon Glowing Building Block",
+  "block.urbanforma.bk_sbb": "Light Persimmon Slab Building Block",
+  "block.urbanforma.bk_stbb": "Light Persimmon Stairs Building Block",
+  
+  "block.urbanforma.t_bb": "Peach Color Building Block",
+  "block.urbanforma.t_gbb": "Peach Color Glowing Building Block",
+  "block.urbanforma.t_sbb": "Peach Color Slab Building Block",
+  "block.urbanforma.t_stbb": "Peach Color Stairs Building Block",
+  
+  // Additional 72 color block series - Third batch 4 colors (abbreviated)
+  "block.urbanforma.brm_bb": "Light Red Plum Building Block",
+  "block.urbanforma.brm_gbb": "Light Red Plum Glowing Building Block",
+  "block.urbanforma.brm_sbb": "Light Red Plum Slab Building Block",
+  "block.urbanforma.brm_stbb": "Light Red Plum Stairs Building Block",
+  
+  "block.urbanforma.az_bb": "Azalea Building Block",
+  "block.urbanforma.az_gbb": "Azalea Glowing Building Block",
+  "block.urbanforma.az_sbb": "Azalea Slab Building Block",
+  "block.urbanforma.az_stbb": "Azalea Stairs Building Block",
+  
+  "block.urbanforma.pn_bb": "Peony Building Block",
+  "block.urbanforma.pn_gbb": "Peony Glowing Building Block",
+  "block.urbanforma.pn_sbb": "Peony Slab Building Block",
+  "block.urbanforma.pn_stbb": "Peony Stairs Building Block",
+  
+  "block.urbanforma.qw_bb": "Rose Building Block",
+  "block.urbanforma.qw_gbb": "Rose Glowing Building Block",
+  "block.urbanforma.qw_sbb": "Rose Slab Building Block",
+  "block.urbanforma.qw_stbb": "Rose Stairs Building Block",
+  
+  // Additional 4 color block series (abbreviated ID)
+  "block.urbanforma.r_bb": "Red Building Block",
+  "block.urbanforma.r_gbb": "Red Glowing Building Block",
+  "block.urbanforma.r_sbb": "Red Slab Building Block",
+  "block.urbanforma.r_stbb": "Red Stairs Building Block",
+  
+  "block.urbanforma.rv_bb": "Scarlet Building Block",
+  "block.urbanforma.rv_gbb": "Scarlet Glowing Building Block",
+  "block.urbanforma.rv_sbb": "Scarlet Slab Building Block",
+  "block.urbanforma.rv_stbb": "Scarlet Stairs Building Block",
+  
+  "block.urbanforma.s_bb": "Deep Red Building Block",
+  "block.urbanforma.s_gbb": "Deep Red Glowing Building Block",
+  "block.urbanforma.s_sbb": "Deep Red Slab Building Block",
+  "block.urbanforma.s_stbb": "Deep Red Stairs Building Block",
+  
+  "block.urbanforma.ds_bb": "Dark Scarlet Building Block",
+  "block.urbanforma.ds_gbb": "Dark Scarlet Glowing Building Block",
+  "block.urbanforma.ds_sbb": "Dark Scarlet Slab Building Block",
+  "block.urbanforma.ds_stbb": "Dark Scarlet Stairs Building Block",
+  
+  // Additional 4 color block series (abbreviated ID)
+  "block.urbanforma.ls_bb": "Chestnut Building Block",
+  "block.urbanforma.ls_gbb": "Chestnut Glowing Building Block",
+  "block.urbanforma.ls_sbb": "Chestnut Slab Building Block",
+  "block.urbanforma.ls_stbb": "Chestnut Stairs Building Block",
+  
+  "block.urbanforma.rz_bb": "Carmine Building Block",
+  "block.urbanforma.rz_gbb": "Carmine Glowing Building Block",
+  "block.urbanforma.rz_sbb": "Carmine Slab Building Block",
+  "block.urbanforma.rz_stbb": "Carmine Stairs Building Block",
+  
+  "block.urbanforma.jy_bb": "Modern Color Building Block",
+  "block.urbanforma.jy_gbb": "Modern Color Glowing Building Block",
+  "block.urbanforma.jy_sbb": "Modern Color Slab Building Block",
+  "block.urbanforma.jy_stbb": "Modern Color Stairs Building Block",
+  
+  "block.urbanforma.jc_bb": "Golden Red Building Block",
+  "block.urbanforma.jc_gbb": "Golden Red Glowing Building Block",
+  "block.urbanforma.jc_sbb": "Golden Red Slab Building Block",
+  "block.urbanforma.jc_stbb": "Golden Red Stairs Building Block",
+  
+  // Additional 4 color block series (abbreviated ID)
+  "block.urbanforma.ro_bb": "Red Orange Building Block",
+  "block.urbanforma.ro_gbb": "Red Orange Glowing Building Block",
+  "block.urbanforma.ro_sbb": "Red Orange Slab Building Block",
+  "block.urbanforma.ro_stbb": "Red Orange Stairs Building Block",
+  
+  "block.urbanforma.rv2_bb": "Red Vermilion Building Block",
+  "block.urbanforma.rv2_gbb": "Red Vermilion Glowing Building Block",
+  "block.urbanforma.rv2_sbb": "Red Vermilion Slab Building Block",
+  "block.urbanforma.rv2_stbb": "Red Vermilion Stairs Building Block",
+  
+  "block.urbanforma.d_bb": "Dawn Color Building Block",
+  "block.urbanforma.d_gbb": "Dawn Color Glowing Building Block",
+  "block.urbanforma.d_sbb": "Dawn Color Slab Building Block",
+  "block.urbanforma.d_stbb": "Dawn Color Stairs Building Block",
+  
+  "block.urbanforma.bt_bb": "Burnt Tea Building Block",
+  "block.urbanforma.bt_gbb": "Burnt Tea Glowing Building Block",
+  "block.urbanforma.bt_sbb": "Burnt Tea Slab Building Block",
+  "block.urbanforma.bt_stbb": "Burnt Tea Stairs Building Block",
+  
+  "block.urbanforma.mr_bb": "Plum Dye Building Block",
+  "block.urbanforma.mr_gbb": "Plum Dye Glowing Building Block",
+  "block.urbanforma.mr_sbb": "Plum Dye Slab Building Block",
+  "block.urbanforma.mr_stbb": "Plum Dye Stairs Building Block",
+  
+  "block.urbanforma.rwo_bb": "Red White Oak Building Block",
+  "block.urbanforma.rwo_gbb": "Red White Oak Glowing Building Block",
+  "block.urbanforma.rwo_sbb": "Red White Oak Slab Building Block",
+  "block.urbanforma.rwo_stbb": "Red White Oak Stairs Building Block",
+  
+  "block.urbanforma.js_bb": "Skin Color Building Block",
+  "block.urbanforma.js_gbb": "Skin Color Glowing Building Block",
+  "block.urbanforma.js_sbb": "Skin Color Slab Building Block",
+  "block.urbanforma.js_stbb": "Skin Color Stairs Building Block",
+  
+  "block.urbanforma.xm_bb": "Wheat Color Building Block",
+  "block.urbanforma.xm_gbb": "Wheat Color Glowing Building Block",
+  "block.urbanforma.xm_sbb": "Wheat Color Slab Building Block",
+  "block.urbanforma.xm_stbb": "Wheat Color Stairs Building Block",
+  
+  // Additional 4 color block series (abbreviated ID)
+  "block.urbanforma.go_bb": "Gold Building Block",
+  "block.urbanforma.go_gbb": "Gold Glowing Building Block",
+  "block.urbanforma.go_sbb": "Gold Slab Building Block",
+  "block.urbanforma.go_stbb": "Gold Stairs Building Block",
+  
+  "block.urbanforma.ly_bb": "Pale Yellow Building Block",
+  "block.urbanforma.ly_gbb": "Pale Yellow Glowing Building Block",
+  "block.urbanforma.ly_sbb": "Pale Yellow Slab Building Block",
+  "block.urbanforma.ly_stbb": "Pale Yellow Stairs Building Block",
+  
+  "block.urbanforma.ph_bb": "Phellodendron Building Block",
+  "block.urbanforma.ph_gbb": "Phellodendron Glowing Building Block",
+  "block.urbanforma.ph_sbb": "Phellodendron Slab Building Block",
+  "block.urbanforma.ph_stbb": "Phellodendron Stairs Building Block",
+  
+  "block.urbanforma.tu_bb": "Turmeric Building Block",
+  "block.urbanforma.tu_gbb": "Turmeric Glowing Building Block",
+  "block.urbanforma.tu_sbb": "Turmeric Slab Building Block",
+  "block.urbanforma.tu_stbb": "Turmeric Stairs Building Block",
+  
+  // Additional 4 color block series (abbreviated ID)
+  "block.urbanforma.y_bb": "Yellow Building Block",
+  "block.urbanforma.y_gbb": "Yellow Glowing Building Block",
+  "block.urbanforma.y_sbb": "Yellow Slab Building Block",
+  "block.urbanforma.y_stbb": "Yellow Stairs Building Block",
+  
+  "block.urbanforma.gy_bb": "Green Yellow Building Block",
+  "block.urbanforma.gy_gbb": "Green Yellow Glowing Building Block",
+  "block.urbanforma.gy_sbb": "Green Yellow Slab Building Block",
+  "block.urbanforma.gy_stbb": "Green Yellow Stairs Building Block",
+  
+  "block.urbanforma.nd_bb": "Defense Color Building Block",
+  "block.urbanforma.nd_gbb": "Defense Color Glowing Building Block",
+  "block.urbanforma.nd_sbb": "Defense Color Slab Building Block",
+  "block.urbanforma.nd_stbb": "Defense Color Stairs Building Block",
+  
+  "block.urbanforma.bv_bb": "Blue Vermilion Building Block",
+  "block.urbanforma.bv_gbb": "Blue Vermilion Glowing Building Block",
+  "block.urbanforma.bv_sbb": "Blue Vermilion Slab Building Block",
+  "block.urbanforma.bv_stbb": "Blue Vermilion Stairs Building Block",
+  
+  // Additional 4 color block series (abbreviated ID)
+  "block.urbanforma.sp_bb": "Sea Pine Building Block",
+  "block.urbanforma.sp_gbb": "Sea Pine Glowing Building Block",
+  "block.urbanforma.sp_sbb": "Sea Pine Slab Building Block",
+  "block.urbanforma.sp_stbb": "Sea Pine Stairs Building Block",
+  
+  "block.urbanforma.md_bb": "Mountain Dove Building Block",
+  "block.urbanforma.md_gbb": "Mountain Dove Glowing Building Block",
+  "block.urbanforma.md_sbb": "Mountain Dove Slab Building Block",
+  "block.urbanforma.md_stbb": "Mountain Dove Stairs Building Block",
+  
+  "block.urbanforma.rg_bb": "Rikyu Mouse Building Block",
+  "block.urbanforma.rg_gbb": "Rikyu Mouse Glowing Building Block",
+  "block.urbanforma.rg_sbb": "Rikyu Mouse Slab Building Block",
+  "block.urbanforma.rg_stbb": "Rikyu Mouse Stairs Building Block",
+  
+  "block.urbanforma.wg_bb": "White Green Building Block",
+  "block.urbanforma.wg_gbb": "White Green Glowing Building Block",
+  "block.urbanforma.wg_sbb": "White Green Slab Building Block",
+  "block.urbanforma.wg_stbb": "White Green Stairs Building Block",
+  
+  // Additional 4 color block series (abbreviated ID)
+  "block.urbanforma.yg_bb": "Young Green Building Block",
+  "block.urbanforma.yg_gbb": "Young Green Glowing Building Block",
+  "block.urbanforma.yg_sbb": "Young Green Slab Building Block",
+  "block.urbanforma.yg_stbb": "Young Green Stairs Building Block",
+  
+  "block.urbanforma.gr_bb": "Green Building Block",
+  "block.urbanforma.gr_gbb": "Green Glowing Building Block",
+  "block.urbanforma.gr_sbb": "Green Slab Building Block",
+  "block.urbanforma.gr_stbb": "Green Stairs Building Block",
+  
+  "block.urbanforma.bgr_bb": "Blue Green Building Block",
+  "block.urbanforma.bgr_gbb": "Blue Green Glowing Building Block",
+  "block.urbanforma.bgr_sbb": "Blue Green Slab Building Block",
+  "block.urbanforma.bgr_stbb": "Blue Green Stairs Building Block",
+  
+  "block.urbanforma.mt_bb": "Matcha Building Block",
+  "block.urbanforma.mt_gbb": "Matcha Glowing Building Block",
+  "block.urbanforma.mt_sbb": "Matcha Slab Building Block",
+  "block.urbanforma.mt_stbb": "Matcha Stairs Building Block",
+  
+  // Additional 4 color block series (abbreviated ID)
+  "block.urbanforma.pnd_bb": "Pine Needle Building Block",
+  "block.urbanforma.pnd_gbb": "Pine Needle Glowing Building Block",
+  "block.urbanforma.pnd_sbb": "Pine Needle Slab Building Block",
+  "block.urbanforma.pnd_stbb": "Pine Needle Stairs Building Block",
+  
+  "block.urbanforma.dgr_bb": "Dark Green Building Block",
+  "block.urbanforma.dgr_gbb": "Dark Green Glowing Building Block",
+  "block.urbanforma.dgr_sbb": "Dark Green Slab Building Block",
+  "block.urbanforma.dgr_stbb": "Dark Green Stairs Building Block",
+  
+  "block.urbanforma.fg_bb": "Forest Green Building Block",
+  "block.urbanforma.fg_gbb": "Forest Green Glowing Building Block",
+  "block.urbanforma.fg_sbb": "Forest Green Slab Building Block",
+  "block.urbanforma.fg_stbb": "Forest Green Stairs Building Block",
+  
+  "block.urbanforma.bst_bb": "Blue Sea Pine Tea Building Block",
+  "block.urbanforma.bst_gbb": "Blue Sea Pine Tea Glowing Building Block",
+  "block.urbanforma.bst_sbb": "Blue Sea Pine Tea Slab Building Block",
+  "block.urbanforma.bst_stbb": "Blue Sea Pine Tea Stairs Building Block",
+  
+  // Additional 4 color block series (abbreviated ID)
+  "block.urbanforma.sen_bb": "Sencha Tea Building Block",
+  "block.urbanforma.sen_gbb": "Sencha Tea Glowing Building Block",
+  "block.urbanforma.sen_sbb": "Sencha Tea Slab Building Block",
+  "block.urbanforma.sen_stbb": "Sencha Tea Stairs Building Block",
+  
+  "block.urbanforma.ir_bb": "Iron Nando Building Block",
+  "block.urbanforma.ir_gbb": "Iron Nando Glowing Building Block",
+  "block.urbanforma.ir_sbb": "Iron Nando Slab Building Block",
+  "block.urbanforma.ir_stbb": "Iron Nando Stairs Building Block",
+  
+  "block.urbanforma.wa_bb": "Water Color Building Block",
+  "block.urbanforma.wa_gbb": "Water Color Glowing Building Block",
+  "block.urbanforma.wa_sbb": "Water Color Slab Building Block",
+  "block.urbanforma.wa_stbb": "Water Color Stairs Building Block",
+  
+  "block.urbanforma.wb_bb": "White Group Building Block",
+  "block.urbanforma.wb_gbb": "White Group Glowing Building Block",
+  "block.urbanforma.wb_sbb": "White Group Slab Building Block",
+  "block.urbanforma.wb_stbb": "White Group Stairs Building Block",
+  
+  // Additional 8 color block series (abbreviated ID)
+  "block.urbanforma.gn_bb": "Nando Color Building Block",
+  "block.urbanforma.gn_gbb": "Nando Color Glowing Building Block",
+  "block.urbanforma.gn_sbb": "Nando Color Slab Building Block",
+  "block.urbanforma.gn_stbb": "Nando Color Stairs Building Block",
+  
+  "block.urbanforma.sk_bb": "Sky Color Building Block",
+  "block.urbanforma.sk_gbb": "Sky Color Glowing Building Block",
+  "block.urbanforma.sk_sbb": "Sky Color Slab Building Block",
+  "block.urbanforma.sk_stbb": "Sky Color Stairs Building Block",
+  
+  "block.urbanforma.bu_bb": "Blue Building Block",
+  "block.urbanforma.bu_gbb": "Blue Glowing Building Block",
+  "block.urbanforma.bu_sbb": "Blue Slab Building Block",
+  "block.urbanforma.bu_stbb": "Blue Stairs Building Block",
+  
+  "block.urbanforma.lb_bb": "Light Blue Building Block",
+  "block.urbanforma.lb_gbb": "Light Blue Glowing Building Block",
+  "block.urbanforma.lb_sbb": "Light Blue Slab Building Block",
+  "block.urbanforma.lb_stbb": "Light Blue Stairs Building Block",
+  
+  "block.urbanforma.bc_bb": "Blue Color Building Block",
+  "block.urbanforma.bc_gbb": "Blue Color Glowing Building Block",
+  "block.urbanforma.bc_sbb": "Blue Color Slab Building Block",
+  "block.urbanforma.bc_stbb": "Blue Color Stairs Building Block",
+  
+  "block.urbanforma.db_bb": "Dark Blue Building Block",
+  "block.urbanforma.db_gbb": "Dark Blue Glowing Building Block",
+  "block.urbanforma.db_sbb": "Dark Blue Slab Building Block",
+  "block.urbanforma.db_stbb": "Dark Blue Stairs Building Block",
+  
+  "block.urbanforma.fl_bb": "Flower Color Building Block",
+  "block.urbanforma.fl_gbb": "Flower Color Glowing Building Block",
+  "block.urbanforma.fl_sbb": "Flower Color Slab Building Block",
+  "block.urbanforma.fl_stbb": "Flower Color Stairs Building Block",
+  
+  "block.urbanforma.nv_bb": "Dark Bellflower Building Block",
+  "block.urbanforma.nv_gbb": "Dark Bellflower Glowing Building Block",
+  "block.urbanforma.nv_sbb": "Dark Bellflower Slab Building Block",
+  "block.urbanforma.nv_stbb": "Dark Bellflower Stairs Building Block",
+  
+  "block.urbanforma.ul_bb": "Ultramarine Building Block",
+  "block.urbanforma.ul_gbb": "Ultramarine Glowing Building Block",
+  "block.urbanforma.ul_sbb": "Ultramarine Slab Building Block",
+  "block.urbanforma.ul_stbb": "Ultramarine Stairs Building Block",
+  
+  "block.urbanforma.wgr_bb": "Wisteria Nando Building Block",
+  "block.urbanforma.wgr_gbb": "Wisteria Nando Glowing Building Block",
+  "block.urbanforma.wgr_sbb": "Wisteria Nando Slab Building Block",
+  "block.urbanforma.wgr_stbb": "Wisteria Nando Stairs Building Block",
+  
+  "block.urbanforma.wi_bb": "Wisteria Building Block",
+  "block.urbanforma.wi_gbb": "Wisteria Glowing Building Block",
+  "block.urbanforma.wi_sbb": "Wisteria Slab Building Block",
+  "block.urbanforma.wi_stbb": "Wisteria Stairs Building Block",
+  
+  "block.urbanforma.wp_bb": "Wisteria Purple Building Block",
+  "block.urbanforma.wp_gbb": "Wisteria Purple Glowing Building Block",
+  "block.urbanforma.wp_sbb": "Wisteria Purple Slab Building Block",
+  "block.urbanforma.wp_stbb": "Wisteria Purple Stairs Building Block",
+  
+  // Additional 4 color block series (abbreviated ID)
+  "block.urbanforma.dv_bb": "Dove Feather Building Block",
+  "block.urbanforma.dv_gbb": "Dove Feather Glowing Building Block",
+  "block.urbanforma.dv_sbb": "Dove Feather Slab Building Block",
+  "block.urbanforma.dv_stbb": "Dove Feather Stairs Building Block",
+  
+  "block.urbanforma.bp_bb": "Blue Purple Building Block",
+  "block.urbanforma.bp_gbb": "Blue Purple Glowing Building Block",
+  "block.urbanforma.bp_sbb": "Blue Purple Slab Building Block",
+  "block.urbanforma.bp_stbb": "Blue Purple Stairs Building Block",
+  
+  "block.urbanforma.ep_bb": "Edo Purple Building Block",
+  "block.urbanforma.ep_gbb": "Edo Purple Glowing Building Block",
+  "block.urbanforma.ep_sbb": "Edo Purple Slab Building Block",
+  "block.urbanforma.ep_stbb": "Edo Purple Stairs Building Block",
+  
+  "block.urbanforma.pu_bb": "Purple Building Block",
+  "block.urbanforma.pu_gbb": "Purple Glowing Building Block",
+  "block.urbanforma.pu_sbb": "Purple Slab Building Block",
+  "block.urbanforma.pu_stbb": "Purple Stairs Building Block",
+  
+  // Additional 4 color block series (abbreviated ID)
+  "block.urbanforma.cb_bb": "Iris Building Block",
+  "block.urbanforma.cb_gbb": "Iris Glowing Building Block",
+  "block.urbanforma.cb_sbb": "Iris Slab Building Block",
+  "block.urbanforma.cb_stbb": "Iris Stairs Building Block",
+  
+  "block.urbanforma.pt_bb": "Grape Building Block",
+  "block.urbanforma.pt_gbb": "Grape Glowing Building Block",
+  "block.urbanforma.pt_sbb": "Grape Slab Building Block",
+  "block.urbanforma.pt_stbb": "Grape Stairs Building Block",
+  
+  "block.urbanforma.ps_bb": "Grape Mouse Building Block",
+  "block.urbanforma.ps_gbb": "Grape Mouse Glowing Building Block",
+  "block.urbanforma.ps_sbb": "Grape Mouse Slab Building Block",
+  "block.urbanforma.ps_stbb": "Grape Mouse Stairs Building Block",
+  
+  "block.urbanforma.ns_bb": "Dark Color Building Block",
+  "block.urbanforma.ns_gbb": "Dark Color Glowing Building Block",
+  "block.urbanforma.ns_sbb": "Dark Color Slab Building Block",
+  "block.urbanforma.ns_stbb": "Dark Color Stairs Building Block"
 }

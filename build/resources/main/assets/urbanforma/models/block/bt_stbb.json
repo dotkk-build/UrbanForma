@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "urbanforma:block/b_burnt_tea",
+    "top": "urbanforma:block/b_burnt_tea",
+    "side": "urbanforma:block/b_burnt_tea"
+  }
+}

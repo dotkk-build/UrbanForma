@@ -1,0 +1,22 @@
+{
+	"parent": "minecraft:block/block",
+	"textures": {
+		"38": "urbanforma:block/r_gray",
+		"39": "urbanforma:block/r_gray_l1",
+		"particle": "urbanforma:block/r_gray_r3_45_2"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 6, 16],
+			"faces": {
+				"north": {"uv": [0, 10, 16, 16], "texture": "#38"},
+				"east": {"uv": [0, 0, 6, 16], "rotation": 90, "texture": "#38"},
+				"south": {"uv": [0, 10, 16, 16], "texture": "#38"},
+				"west": {"uv": [0, 0, 6, 16], "rotation": 90, "texture": "#38"},
+				"up": {"uv": [16, 16, 0, 0], "texture": "#39"},
+				"down": {"uv": [16, 0, 0, 16], "texture": "#38"}
+			}
+		}
+	]
+}

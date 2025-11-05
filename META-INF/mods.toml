@@ -4,10 +4,11 @@ license="MIT"
 
 [[mods]]
 modId="urbanforma"
-version="1.01"
+version="1.05b"
 displayName="UrbanForma"
 description='''A modern urban construction mod'''
 authors="YourName"
+logoFile="1_Urban Formalogo.png"
 
 [[dependencies]]
     modId="forge"

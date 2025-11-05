@@ -1,7 +1,8 @@
 {
   "itemGroup.a_1_urbanforma_base": "都市构方基础",
   "itemGroup.a_2_urbanforma_road": "都市构方道路",
-  "itemGroup.a_3_urbanforma_logo": "都市构方LOGO及标识",
+  "itemGroup.a_3_urbanforma_other": "都市构方其他",
+
   
   "block.urbanforma.w_bb": "白色建筑方块",
   "block.urbanforma.w_gbb": "白色发光建筑方块",
@@ -115,5 +116,412 @@
   "block.urbanforma.r_wl32": "道路白大弯1反向",
   "block.urbanforma.r_wl33": "道路白大弯2",
   "block.urbanforma.r_wl34": "道路白大弯2反向",
-  "block.urbanforma.r_wl35": "道路白大弯3"
+  "block.urbanforma.r_wl35": "道路白大弯3",
+  
+  "block.urbanforma.r_gray_h7": "灰色道路高7",
+  "block.urbanforma.r_gray_h6": "灰色道路高6",
+  "block.urbanforma.r_gray_h5": "灰色道路高5",
+  "block.urbanforma.r_gray_h4": "灰色道路高4",
+  "block.urbanforma.r_gray_h3": "灰色道路高3",
+  "block.urbanforma.r_gray_h2": "灰色道路高2",
+  "block.urbanforma.r_gray_h1": "灰色道路高1",
+  
+  "block.urbanforma.r_wl_h7": "道路白中线高7",
+  "block.urbanforma.r_wl_h6": "道路白中线高6",
+  "block.urbanforma.r_wl_h5": "道路白中线高5",
+  "block.urbanforma.r_wl_h4": "道路白中线高4",
+  "block.urbanforma.r_wl_h3": "道路白中线高3",
+  "block.urbanforma.r_wl_h2": "道路白中线高2",
+  "block.urbanforma.r_wl_h1": "道路白中线高1",
+  
+  "block.urbanforma.r_ll1": "道路双白线",
+  "block.urbanforma.r_x": "道路白虚线",
+  "block.urbanforma.r_js1": "道路白减速线",
+  "block.urbanforma.r_js2": "道路白减速线反向",
+  "block.urbanforma.r_l1_yj": "道路黄减速带连接",
+  "block.urbanforma.r_l1_y": "道路黄中线",
+  "block.urbanforma.r_ll1_y": "道路双黄线",
+  "block.urbanforma.r_x_y": "道路黄虚线",
+  
+  // 道路白线头系列
+  "block.urbanforma.r_xt1x": "道路白线头3x",
+  "block.urbanforma.r_xt2x": "道路白线头6x",
+  "block.urbanforma.r_xt1xd": "道路白线头3x反向",
+  "block.urbanforma.r_xt2xd": "道路白线头6x反向",
+
+  
+  // 新增72个颜色方块系列 - 第一批4个颜色（简写）
+  "block.urbanforma.n_hb_bb": "浓灰白建筑方块",
+  "block.urbanforma.n_hb_gbb": "浓灰白发光建筑方块",
+  "block.urbanforma.n_hb_sbb": "浓灰白半砖建筑方块",
+  "block.urbanforma.n_hb_stbb": "浓灰白楼梯建筑方块",
+  
+  "block.urbanforma.xy_bb": "象牙色建筑方块",
+  "block.urbanforma.xy_gbb": "象牙色发光建筑方块",
+  "block.urbanforma.xy_sbb": "象牙色半砖建筑方块",
+  "block.urbanforma.xy_stbb": "象牙色楼梯建筑方块",
+  
+  "block.urbanforma.sc_bb": "生成色建筑方块",
+  "block.urbanforma.sc_gbb": "生成色发光建筑方块",
+  "block.urbanforma.sc_sbb": "生成色半砖建筑方块",
+  "block.urbanforma.sc_stbb": "生成色楼梯建筑方块",
+  
+  "block.urbanforma.yh_bb": "桜色建筑方块",
+  "block.urbanforma.yh_gbb": "桜色发光建筑方块",
+  "block.urbanforma.yh_sbb": "桜色半砖建筑方块",
+  "block.urbanforma.yh_stbb": "桜色楼梯建筑方块",
+  
+  // 新增72个颜色方块系列 - 第二批4个颜色（简写）
+  "block.urbanforma.tb_bb": "鸨色建筑方块",
+  "block.urbanforma.tb_gbb": "鸨色发光建筑方块",
+  "block.urbanforma.tb_sbb": "鸨色半砖建筑方块",
+  "block.urbanforma.tb_stbb": "鸨色楼梯建筑方块",
+  
+  "block.urbanforma.sh_bb": "珊瑚色建筑方块",
+  "block.urbanforma.sh_gbb": "珊瑚色发光建筑方块",
+  "block.urbanforma.sh_sbb": "珊瑚色半砖建筑方块",
+  "block.urbanforma.sh_stbb": "珊瑚色楼梯建筑方块",
+  
+  "block.urbanforma.bk_bb": "薄柿建筑方块",
+  "block.urbanforma.bk_gbb": "薄柿发光建筑方块",
+  "block.urbanforma.bk_sbb": "薄柿半砖建筑方块",
+  "block.urbanforma.bk_stbb": "薄柿楼梯建筑方块",
+  
+  "block.urbanforma.t_bb": "桃色建筑方块",
+  "block.urbanforma.t_gbb": "桃色发光建筑方块",
+  "block.urbanforma.t_sbb": "桃色半砖建筑方块",
+  "block.urbanforma.t_stbb": "桃色楼梯建筑方块",
+  
+  // 新增72个颜色方块系列 - 第三批4个颜色（简写）
+  "block.urbanforma.brm_bb": "薄红梅建筑方块",
+  "block.urbanforma.brm_gbb": "薄红梅发光建筑方块",
+  "block.urbanforma.brm_sbb": "薄红梅半砖建筑方块",
+  "block.urbanforma.brm_stbb": "薄红梅楼梯建筑方块",
+  
+  "block.urbanforma.az_bb": "踯躅色建筑方块",
+  "block.urbanforma.az_gbb": "踯躅色发光建筑方块",
+  "block.urbanforma.az_sbb": "踯躅色半砖建筑方块",
+  "block.urbanforma.az_stbb": "踯躅色楼梯建筑方块",
+  
+  "block.urbanforma.pn_bb": "牡丹色建筑方块",
+  "block.urbanforma.pn_gbb": "牡丹色发光建筑方块",
+  "block.urbanforma.pn_sbb": "牡丹色半砖建筑方块",
+  "block.urbanforma.pn_stbb": "牡丹色楼梯建筑方块",
+  
+  "block.urbanforma.qw_bb": "蔷薇色建筑方块",
+  "block.urbanforma.qw_gbb": "蔷薇色发光建筑方块",
+  "block.urbanforma.qw_sbb": "蔷薇色半砖建筑方块",
+  "block.urbanforma.qw_stbb": "蔷薇色楼梯建筑方块",
+  
+  // 新增4个颜色方块系列（简写ID）
+  "block.urbanforma.r_bb": "红色建筑方块",
+  "block.urbanforma.r_gbb": "红色发光建筑方块",
+  "block.urbanforma.r_sbb": "红色半砖建筑方块",
+  "block.urbanforma.r_stbb": "红色楼梯建筑方块",
+  
+  "block.urbanforma.rv_bb": "红赤建筑方块",
+  "block.urbanforma.rv_gbb": "红赤发光建筑方块",
+  "block.urbanforma.rv_sbb": "红赤半砖建筑方块",
+  "block.urbanforma.rv_stbb": "红赤楼梯建筑方块",
+  
+  "block.urbanforma.s_bb": "绯色建筑方块",
+  "block.urbanforma.s_gbb": "绯色发光建筑方块",
+  "block.urbanforma.s_sbb": "绯色半砖建筑方块",
+  "block.urbanforma.s_stbb": "绯色楼梯建筑方块",
+  
+  "block.urbanforma.ds_bb": "深绯建筑方块",
+  "block.urbanforma.ds_gbb": "深绯发光建筑方块",
+  "block.urbanforma.ds_sbb": "深绯半砖建筑方块",
+  "block.urbanforma.ds_stbb": "深绯楼梯建筑方块",
+  
+  // 新增4个颜色方块系列（简写ID）
+  "block.urbanforma.ls_bb": "栗色建筑方块",
+  "block.urbanforma.ls_gbb": "栗色发光建筑方块",
+  "block.urbanforma.ls_sbb": "栗色半砖建筑方块",
+  "block.urbanforma.ls_stbb": "栗色楼梯建筑方块",
+  
+  "block.urbanforma.rz_bb": "臙脂色建筑方块",
+  "block.urbanforma.rz_gbb": "臙脂色发光建筑方块",
+  "block.urbanforma.rz_sbb": "臙脂色半砖建筑方块",
+  "block.urbanforma.rz_stbb": "臙脂色楼梯建筑方块",
+  
+  "block.urbanforma.jy_bb": "今様色建筑方块",
+  "block.urbanforma.jy_gbb": "今様色发光建筑方块",
+  "block.urbanforma.jy_sbb": "今様色半砖建筑方块",
+  "block.urbanforma.jy_stbb": "今様色楼梯建筑方块",
+  
+  "block.urbanforma.jc_bb": "金赤建筑方块",
+  "block.urbanforma.jc_gbb": "金赤发光建筑方块",
+  "block.urbanforma.jc_sbb": "金赤半砖建筑方块",
+  "block.urbanforma.jc_stbb": "金赤楼梯建筑方块",
+  
+  // 新增4个颜色方块系列（简写ID）
+  "block.urbanforma.ro_bb": "赤橙建筑方块",
+  "block.urbanforma.ro_gbb": "赤橙发光建筑方块",
+  "block.urbanforma.ro_sbb": "赤橙半砖建筑方块",
+  "block.urbanforma.ro_stbb": "赤橙楼梯建筑方块",
+  
+  "block.urbanforma.rv2_bb": "赤丹建筑方块",
+  "block.urbanforma.rv2_gbb": "赤丹发光建筑方块",
+  "block.urbanforma.rv2_sbb": "赤丹半砖建筑方块",
+  "block.urbanforma.rv2_stbb": "赤丹楼梯建筑方块",
+  
+  "block.urbanforma.d_bb": "曙色建筑方块",
+  "block.urbanforma.d_gbb": "曙色发光建筑方块",
+  "block.urbanforma.d_sbb": "曙色半砖建筑方块",
+  "block.urbanforma.d_stbb": "曙色楼梯建筑方块",
+  
+  "block.urbanforma.bt_bb": "焦茶建筑方块",
+  "block.urbanforma.bt_gbb": "焦茶发光建筑方块",
+  "block.urbanforma.bt_sbb": "焦茶半砖建筑方块",
+  "block.urbanforma.bt_stbb": "焦茶楼梯建筑方块",
+  
+  "block.urbanforma.mr_bb": "梅染建筑方块",
+  "block.urbanforma.mr_gbb": "梅染发光建筑方块",
+  "block.urbanforma.mr_sbb": "梅染半砖建筑方块",
+  "block.urbanforma.mr_stbb": "梅染楼梯建筑方块",
+  
+  "block.urbanforma.rwo_bb": "赤白橡建筑方块",
+  "block.urbanforma.rwo_gbb": "赤白橡发光建筑方块",
+  "block.urbanforma.rwo_sbb": "赤白橡半砖建筑方块",
+  "block.urbanforma.rwo_stbb": "赤白橡楼梯建筑方块",
+  
+  "block.urbanforma.js_bb": "肌色建筑方块",
+  "block.urbanforma.js_gbb": "肌色发光建筑方块",
+  "block.urbanforma.js_sbb": "肌色半砖建筑方块",
+  "block.urbanforma.js_stbb": "肌色楼梯建筑方块",
+  
+  "block.urbanforma.xm_bb": "小麦色建筑方块",
+  "block.urbanforma.xm_gbb": "小麦色发光建筑方块",
+  "block.urbanforma.xm_sbb": "小麦色半砖建筑方块",
+  "block.urbanforma.xm_stbb": "小麦色楼梯建筑方块",
+  
+  // 新增4个颜色方块系列（简写ID）
+  "block.urbanforma.go_bb": "黄金建筑方块",
+  "block.urbanforma.go_gbb": "黄金发光建筑方块",
+  "block.urbanforma.go_sbb": "黄金半砖建筑方块",
+  "block.urbanforma.go_stbb": "黄金楼梯建筑方块",
+  
+  "block.urbanforma.ly_bb": "淡黄建筑方块",
+  "block.urbanforma.ly_gbb": "淡黄发光建筑方块",
+  "block.urbanforma.ly_sbb": "淡黄半砖建筑方块",
+  "block.urbanforma.ly_stbb": "淡黄楼梯建筑方块",
+  
+  "block.urbanforma.ph_bb": "黄檗色建筑方块",
+  "block.urbanforma.ph_gbb": "黄檗色发光建筑方块",
+  "block.urbanforma.ph_sbb": "黄檗色半砖建筑方块",
+  "block.urbanforma.ph_stbb": "黄檗色楼梯建筑方块",
+  
+  "block.urbanforma.tu_bb": "郁金色建筑方块",
+  "block.urbanforma.tu_gbb": "郁金色发光建筑方块",
+  "block.urbanforma.tu_sbb": "郁金色半砖建筑方块",
+  "block.urbanforma.tu_stbb": "郁金色楼梯建筑方块",
+  
+  // 新增4个颜色方块系列（简写ID）
+  "block.urbanforma.y_bb": "黄色建筑方块",
+  "block.urbanforma.y_gbb": "黄色发光建筑方块",
+  "block.urbanforma.y_sbb": "黄色半砖建筑方块",
+  "block.urbanforma.y_stbb": "黄色楼梯建筑方块",
+  
+  "block.urbanforma.gy_bb": "緑黄色建筑方块",
+  "block.urbanforma.gy_gbb": "緑黄色发光建筑方块",
+  "block.urbanforma.gy_sbb": "緑黄色半砖建筑方块",
+  "block.urbanforma.gy_stbb": "緑黄色楼梯建筑方块",
+  
+  "block.urbanforma.nd_bb": "国防色建筑方块",
+  "block.urbanforma.nd_gbb": "国防色发光建筑方块",
+  "block.urbanforma.nd_sbb": "国防色半砖建筑方块",
+  "block.urbanforma.nd_stbb": "国防色楼梯建筑方块",
+  
+  "block.urbanforma.bv_bb": "青丹建筑方块",
+  "block.urbanforma.bv_gbb": "青丹发光建筑方块",
+  "block.urbanforma.bv_sbb": "青丹半砖建筑方块",
+  "block.urbanforma.bv_stbb": "青丹楼梯建筑方块",
+  
+  // 新增4个颜色方块系列（简写ID）
+  "block.urbanforma.sp_bb": "海松色建筑方块",
+  "block.urbanforma.sp_gbb": "海松色发光建筑方块",
+  "block.urbanforma.sp_sbb": "海松色半砖建筑方块",
+  "block.urbanforma.sp_stbb": "海松色楼梯建筑方块",
+  
+  "block.urbanforma.md_bb": "山鸠色建筑方块",
+  "block.urbanforma.md_gbb": "山鸠色发光建筑方块",
+  "block.urbanforma.md_sbb": "山鸠色半砖建筑方块",
+  "block.urbanforma.md_stbb": "山鸠色楼梯建筑方块",
+  
+  "block.urbanforma.rg_bb": "利休鼠建筑方块",
+  "block.urbanforma.rg_gbb": "利休鼠发光建筑方块",
+  "block.urbanforma.rg_sbb": "利休鼠半砖建筑方块",
+  "block.urbanforma.rg_stbb": "利休鼠楼梯建筑方块",
+  
+  "block.urbanforma.wg_bb": "白緑建筑方块",
+  "block.urbanforma.wg_gbb": "白緑发光建筑方块",
+  "block.urbanforma.wg_sbb": "白緑半砖建筑方块",
+  "block.urbanforma.wg_stbb": "白緑楼梯建筑方块",
+  
+  // 新增4个颜色方块系列（简写ID）
+  "block.urbanforma.yg_bb": "若緑建筑方块",
+  "block.urbanforma.yg_gbb": "若緑发光建筑方块",
+  "block.urbanforma.yg_sbb": "若緑半砖建筑方块",
+  "block.urbanforma.yg_stbb": "若緑楼梯建筑方块",
+  
+  "block.urbanforma.gr_bb": "绿建筑方块",
+  "block.urbanforma.gr_gbb": "绿发光建筑方块",
+  "block.urbanforma.gr_sbb": "绿半砖建筑方块",
+  "block.urbanforma.gr_stbb": "绿楼梯建筑方块",
+  
+  "block.urbanforma.bgr_bb": "青緑建筑方块",
+  "block.urbanforma.bgr_gbb": "青緑发光建筑方块",
+  "block.urbanforma.bgr_sbb": "青緑半砖建筑方块",
+  "block.urbanforma.bgr_stbb": "青緑楼梯建筑方块",
+  
+  "block.urbanforma.mt_bb": "抹茶色建筑方块",
+  "block.urbanforma.mt_gbb": "抹茶色发光建筑方块",
+  "block.urbanforma.mt_sbb": "抹茶色半砖建筑方块",
+  "block.urbanforma.mt_stbb": "抹茶色楼梯建筑方块",
+  
+  // 新增4个颜色方块系列（简写ID）
+  "block.urbanforma.pnd_bb": "松叶色建筑方块",
+  "block.urbanforma.pnd_gbb": "松叶色发光建筑方块",
+  "block.urbanforma.pnd_sbb": "松叶色半砖建筑方块",
+  "block.urbanforma.pnd_stbb": "松叶色楼梯建筑方块",
+  
+  "block.urbanforma.dgr_bb": "深緑建筑方块",
+  "block.urbanforma.dgr_gbb": "深緑发光建筑方块",
+  "block.urbanforma.dgr_sbb": "深緑半砖建筑方块",
+  "block.urbanforma.dgr_stbb": "深緑楼梯建筑方块",
+  
+  "block.urbanforma.fg_bb": "森緑建筑方块",
+  "block.urbanforma.fg_gbb": "森緑发光建筑方块",
+  "block.urbanforma.fg_sbb": "森緑半砖建筑方块",
+  "block.urbanforma.fg_stbb": "森緑楼梯建筑方块",
+  
+  "block.urbanforma.bst_bb": "蓝海松茶建筑方块",
+  "block.urbanforma.bst_gbb": "蓝海松茶发光建筑方块",
+  "block.urbanforma.bst_sbb": "蓝海松茶半砖建筑方块",
+  "block.urbanforma.bst_stbb": "蓝海松茶楼梯建筑方块",
+  
+  // 新增4个颜色方块系列（简写ID）
+  "block.urbanforma.sen_bb": "仙斎茶建筑方块",
+  "block.urbanforma.sen_gbb": "仙斎茶发光建筑方块",
+  "block.urbanforma.sen_sbb": "仙斎茶半砖建筑方块",
+  "block.urbanforma.sen_stbb": "仙斎茶楼梯建筑方块",
+  
+  "block.urbanforma.ir_bb": "铁御纳戸建筑方块",
+  "block.urbanforma.ir_gbb": "铁御纳戸发光建筑方块",
+  "block.urbanforma.ir_sbb": "铁御纳戸半砖建筑方块",
+  "block.urbanforma.ir_stbb": "铁御纳戸楼梯建筑方块",
+  
+  "block.urbanforma.wa_bb": "水色建筑方块",
+  "block.urbanforma.wa_gbb": "水色发光建筑方块",
+  "block.urbanforma.wa_sbb": "水色半砖建筑方块",
+  "block.urbanforma.wa_stbb": "水色楼梯建筑方块",
+  
+  "block.urbanforma.wb_bb": "白群建筑方块",
+  "block.urbanforma.wb_gbb": "白群发光建筑方块",
+  "block.urbanforma.wb_sbb": "白群半砖建筑方块",
+  "block.urbanforma.wb_stbb": "白群楼梯建筑方块",
+  
+  // 新增8个颜色方块系列（简写ID）
+  "block.urbanforma.gn_bb": "御纳戸色建筑方块",
+  "block.urbanforma.gn_gbb": "御纳戸色发光建筑方块",
+  "block.urbanforma.gn_sbb": "御纳戸色半砖建筑方块",
+  "block.urbanforma.gn_stbb": "御纳戸色楼梯建筑方块",
+  
+  "block.urbanforma.sk_bb": "空色建筑方块",
+  "block.urbanforma.sk_gbb": "空色发光建筑方块",
+  "block.urbanforma.sk_sbb": "空色半砖建筑方块",
+  "block.urbanforma.sk_stbb": "空色楼梯建筑方块",
+  
+  "block.urbanforma.bu_bb": "青建筑方块",
+  "block.urbanforma.bu_gbb": "青发光建筑方块",
+  "block.urbanforma.bu_sbb": "青半砖建筑方块",
+  "block.urbanforma.bu_stbb": "青楼梯建筑方块",
+  
+  "block.urbanforma.lb_bb": "浅缥建筑方块",
+  "block.urbanforma.lb_gbb": "浅缥发光建筑方块",
+  "block.urbanforma.lb_sbb": "浅缥半砖建筑方块",
+  "block.urbanforma.lb_stbb": "浅缥楼梯建筑方块",
+  
+  "block.urbanforma.bc_bb": "蓝色建筑方块",
+  "block.urbanforma.bc_gbb": "蓝色发光建筑方块",
+  "block.urbanforma.bc_sbb": "蓝色半砖建筑方块",
+  "block.urbanforma.bc_stbb": "蓝色楼梯建筑方块",
+  
+  "block.urbanforma.db_bb": "浓蓝建筑方块",
+  "block.urbanforma.db_gbb": "浓蓝发光建筑方块",
+  "block.urbanforma.db_sbb": "浓蓝半砖建筑方块",
+  "block.urbanforma.db_stbb": "浓蓝楼梯建筑方块",
+  
+  "block.urbanforma.fl_bb": "花色建筑方块",
+  "block.urbanforma.fl_gbb": "花色发光建筑方块",
+  "block.urbanforma.fl_sbb": "花色半砖建筑方块",
+  "block.urbanforma.fl_stbb": "花色楼梯建筑方块",
+  
+  "block.urbanforma.nv_bb": "绀桔梗建筑方块",
+  "block.urbanforma.nv_gbb": "绀桔梗发光建筑方块",
+  "block.urbanforma.nv_sbb": "绀桔梗半砖建筑方块",
+  "block.urbanforma.nv_stbb": "绀桔梗楼梯建筑方块",
+  
+  "block.urbanforma.ul_bb": "群青色建筑方块",
+  "block.urbanforma.ul_gbb": "群青色发光建筑方块",
+  "block.urbanforma.ul_sbb": "群青色半砖建筑方块",
+  "block.urbanforma.ul_stbb": "群青色楼梯建筑方块",
+  
+  "block.urbanforma.wgr_bb": "藤纳戸建筑方块",
+  "block.urbanforma.wgr_gbb": "藤纳戸发光建筑方块",
+  "block.urbanforma.wgr_sbb": "藤纳戸半砖建筑方块",
+  "block.urbanforma.wgr_stbb": "藤纳戸楼梯建筑方块",
+  
+  "block.urbanforma.wi_bb": "藤色建筑方块",
+  "block.urbanforma.wi_gbb": "藤色发光建筑方块",
+  "block.urbanforma.wi_sbb": "藤色半砖建筑方块",
+  "block.urbanforma.wi_stbb": "藤色楼梯建筑方块",
+  
+  "block.urbanforma.wp_bb": "藤紫建筑方块",
+  "block.urbanforma.wp_gbb": "藤紫发光建筑方块",
+  "block.urbanforma.wp_sbb": "藤紫半砖建筑方块",
+  "block.urbanforma.wp_stbb": "藤紫楼梯建筑方块",
+  
+  // 新增4个颜色方块系列（简写ID）
+  "block.urbanforma.dv_bb": "鸠羽色建筑方块",
+  "block.urbanforma.dv_gbb": "鸠羽色发光建筑方块",
+  "block.urbanforma.dv_sbb": "鸠羽色半砖建筑方块",
+  "block.urbanforma.dv_stbb": "鸠羽色楼梯建筑方块",
+  
+  "block.urbanforma.bp_bb": "青紫建筑方块",
+  "block.urbanforma.bp_gbb": "青紫发光建筑方块",
+  "block.urbanforma.bp_sbb": "青紫半砖建筑方块",
+  "block.urbanforma.bp_stbb": "青紫楼梯建筑方块",
+  
+  "block.urbanforma.ep_bb": "江戸紫建筑方块",
+  "block.urbanforma.ep_gbb": "江戸紫发光建筑方块",
+  "block.urbanforma.ep_sbb": "江戸紫半砖建筑方块",
+  "block.urbanforma.ep_stbb": "江戸紫楼梯建筑方块",
+  
+  "block.urbanforma.pu_bb": "紫建筑方块",
+  "block.urbanforma.pu_gbb": "紫发光建筑方块",
+  "block.urbanforma.pu_sbb": "紫半砖建筑方块",
+  "block.urbanforma.pu_stbb": "紫楼梯建筑方块",
+  
+  // 新增4个颜色方块系列（简写ID）
+  "block.urbanforma.cb_bb": "菖蒲色建筑方块",
+  "block.urbanforma.cb_gbb": "菖蒲色发光建筑方块",
+  "block.urbanforma.cb_sbb": "菖蒲色半砖建筑方块",
+  "block.urbanforma.cb_stbb": "菖蒲色楼梯建筑方块",
+  
+  "block.urbanforma.pt_bb": "葡萄建筑方块",
+  "block.urbanforma.pt_gbb": "葡萄发光建筑方块",
+  "block.urbanforma.pt_sbb": "葡萄半砖建筑方块",
+  "block.urbanforma.pt_stbb": "葡萄楼梯建筑方块",
+  
+  "block.urbanforma.ps_bb": "葡鼠建筑方块",
+  "block.urbanforma.ps_gbb": "葡鼠发光建筑方块",
+  "block.urbanforma.ps_sbb": "葡鼠半砖建筑方块",
+  "block.urbanforma.ps_stbb": "葡鼠楼梯建筑方块",
+  
+  "block.urbanforma.ns_bb": "浓色建筑方块",
+  "block.urbanforma.ns_gbb": "浓色发光建筑方块",
+  "block.urbanforma.ns_sbb": "浓色半砖建筑方块",
+  "block.urbanforma.ns_stbb": "浓色楼梯建筑方块"
 }

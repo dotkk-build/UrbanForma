@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=north": { "model": "urbanforma:block/b_huawei" },
+    "facing=east": { "model": "urbanforma:block/b_huawei", "y": 90 },
+    "facing=south": { "model": "urbanforma:block/b_huawei", "y": 180 },
+    "facing=west": { "model": "urbanforma:block/b_huawei", "y": 270 },
+    "facing=up": { "model": "urbanforma:block/b_huawei", "x": 270 },
+    "facing=down": { "model": "urbanforma:block/b_huawei", "x": 90 }
+  }
+}

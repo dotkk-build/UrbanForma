@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "urbanforma:block/b_pine_needle",
+    "top": "urbanforma:block/b_pine_needle",
+    "side": "urbanforma:block/b_pine_needle"
+  }
+}

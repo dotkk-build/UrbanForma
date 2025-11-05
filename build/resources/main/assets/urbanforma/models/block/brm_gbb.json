@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "urbanforma:block/b_light_red_plum"
+  }
+}

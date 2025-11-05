@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "urbanforma:block/mt_sbb" },
+    "type=top": { "model": "urbanforma:block/mt_sbb_top" },
+    "type=double": { "model": "urbanforma:block/mt_bb" }
+  }
+}

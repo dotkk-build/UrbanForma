@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "urbanforma:block/b_peach",
+    "top": "urbanforma:block/b_peach",
+    "side": "urbanforma:block/b_peach"
+  }
+}

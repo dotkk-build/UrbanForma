@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "urbanforma:block/b_phellodendron",
+    "top": "urbanforma:block/b_phellodendron",
+    "side": "urbanforma:block/b_phellodendron"
+  }
+}
