@@ -1,178 +1,143 @@
-# UrbanForma - Changelog
+# UrbanForma - 更新日志
 
-This document records the version update history of the UrbanForma mod.
+本文件记录 UrbanForma 模组的版本更新历史。
+
+---
+
+## v1.05d - 2025-11-05
+**俄语本地化和版本更新**
+
+#### 🌍 本地化
+- **俄语语言支持**: 添加了完整的俄语本地化文件 (ru_ru.json)
+- **专业翻译**: 使用了地道的俄语术语和颜色命名
+- **完整覆盖**: 翻译了全部72个彩色建筑块系列和道路系统组件
+
+#### 🔧 技术改进
+- 更新模组版本为 1.05d
+- 增强了多语言支持系统
+- 改进了本地化一致性
+
+---
+
+## v1.05c - 2025-11-05
+**韩语本地化和版本更新**
+
+#### 🌍 本地化
+- **韩语语言支持**: 添加了完整的韩语本地化文件 (ko_kr.json)
+- **专业翻译**: 使用了地道的韩语术语和颜色命名
+- **完整覆盖**: 翻译了全部72个彩色建筑块系列和道路系统组件
+
+#### 🔧 技术改进
+- 更新模组版本为 1.05c
+- 增强了多语言支持系统
+- 改进了本地化一致性
 
 ---
 
 ## v1.05b - 2025-11-05
-**Japanese Localization and Version Update**
+**日语本地化和版本更新**
 
-### 🌍 Localization
-- **Japanese Language Support**: Added complete Japanese localization (ja_jp.json)
-- **Professional Translation**: Used authentic Japanese terminology and traditional color names
-- **Full Coverage**: Translated all 72 color block series and road system components
+#### 🌍 本地化
+- **日语语言支持**: 添加了完整的日语本地化文件 (ja_jp.json)
+- **专业翻译**: 使用了地道的日语术语和传统颜色名称
+- **完整覆盖**: 翻译了全部72个彩色建筑块系列和道路系统组件
 
-### 🔧 Technical Improvements
-- Updated mod version to 1.05b
-- Enhanced language file structure consistency
-- Improved internationalization support
-
----
-
-## v1.03 - 2025-10-31
-**White Midline High Road Blocks Enhancement**
-
-### 🆕 New Content
-- **White Midline High Road Blocks**: Added 7 directional high road blocks with white midline (r_wl_h1 to r_wl_h7)
-- **Directional Functionality**: Implemented DirectionalHeightRoadBlock for proper directional placement
-- **Texture Optimization**: Updated top face textures to use r_gray_l1.png for consistent appearance
-
-### 🔧 Technical Improvements
-- Fixed blockstates configuration for directional facing
-- Enhanced texture mapping with proper variable references
-- Improved block registration consistency in ModBlocks.java
+#### 🔧 技术改进
+- 更新模组版本为 1.05b
+- 增强了语言文件结构一致性
+- 改进了国际化支持
 
 ---
 
 ## v1.03 - 2025-10-31
-**White Midline High Road Blocks Enhancement**
+**白色中线高路缘石增强**
 
-### 🆕 New Content
-- **White Midline High Road Blocks**: Added 7 directional high road blocks with white midline (r_wl_h1 to r_wl_h7)
-- **Directional Functionality**: Implemented DirectionalHeightRoadBlock for proper directional placement
-- **Texture Optimization**: Updated top face textures to use r_gray_l1.png for consistent appearance
+#### 🆕 新增内容
+- **白色中线高路缘石**: 添加了7个带白色中线的方向性高路缘石方块 (r_wl_h1 to r_wl_h7)
+- **方向性功能**: 实现了 DirectionalHeightRoadBlock 以实现正确的方向放置
+- **纹理优化**: 更新顶面纹理使用 r_gray_l1.png 以保持一致外观
 
-### 🔧 Technical Improvements
-- Fixed blockstates configuration for directional facing
-- Enhanced texture mapping with proper variable references
-- Improved block registration consistency in ModBlocks.java
+#### 🔧 技术改进
+- 修复了方向面对的方块状态配置
+- 增强了纹理映射与适当的变量引用
+- 改进了 ModBlocks.java 中的方块注册一致性
 
 ---
 
 ## v1.02 - 2025-10-31
-**Road System Enhancement**
+**道路系统增强**
 
-### 🆕 New Content
-- **Road Block System**: Added 35 road blocks with white markings (r_wl1 to r_wl35)
-- **Directional Road Blocks**: Implemented DirectionalRoadBlock for directional placement
-- **Road Marking Types**:
-  - Center lines, 45-degree lines, zebra crossings
-  - Corner lines, T-lines, cross lines
-  - Small, medium, and large curves with reverse variants
-  - 45-degree curves with reverse variants
+#### 🆕 新增内容
+- **道路方块系统**: 添加了35个带白色标记的道路方块 (r_wl1 to r_wl35)
+- **方向性道路方块**: 实现了 DirectionalRoadBlock 用于方向性放置
+- **道路标记类型**:
+  - 中心线、45度线、斑马线
+  - 角落线、T型线、十字线
+  - 小型、中型和大型曲线及其反向变体
+  - 45度曲线及其反向变体
 
-### 🔧 Technical Improvements
-- Enhanced ModBlocks.java with comprehensive road block registry
-- Updated creative tabs with road block categorization
-- Complete Chinese localization for all road blocks
-- Standardized texture mapping system
-
----
-
-## v1.03 - 2025-10-31
-**White Midline High Road Blocks Enhancement**
-
-### 🆕 New Content
-- **White Midline High Road Blocks**: Added 7 directional high road blocks with white midline (r_wl_h1 to r_wl_h7)
-- **Directional Functionality**: Implemented DirectionalHeightRoadBlock for proper directional placement
-- **Texture Optimization**: Updated top face textures to use r_gray_l1.png for consistent appearance
-
-### 🔧 Technical Improvements
-- Fixed blockstates configuration for directional facing
-- Enhanced texture mapping with proper variable references
-- Improved block registration consistency in ModBlocks.java
-
----
-
-## v1.03 - 2025-10-31
-**White Midline High Road Blocks Enhancement**
-
-### 🆕 New Content
-- **White Midline High Road Blocks**: Added 7 directional high road blocks with white midline (r_wl_h1 to r_wl_h7)
-- **Directional Functionality**: Implemented DirectionalHeightRoadBlock for proper directional placement
-- **Texture Optimization**: Updated top face textures to use r_gray_l1.png for consistent appearance
-
-### 🔧 Technical Improvements
-- Fixed blockstates configuration for directional facing
-- Enhanced texture mapping with proper variable references
-- Improved block registration consistency in ModBlocks.java
-
----
-
-## v1.02 - 2025-10-31
-**Road System Enhancement**
-
-### 🆕 New Content
-- **Road Block System**: Added 35 road blocks with white markings (r_wl1 to r_wl35)
-- **Directional Road Blocks**: Implemented DirectionalRoadBlock for directional placement
-- **Road Marking Types**:
-  - Center lines, 45-degree lines, zebra crossings
-  - Corner lines, T-lines, cross lines
-  - Small, medium, and large curves with reverse variants
-  - 45-degree curves with reverse variants
-
-### 🔧 Technical Improvements
-- Enhanced ModBlocks.java with comprehensive road block registry
-- Updated creative tabs with road block categorization
-- Complete Chinese localization for all road blocks
-- Standardized texture mapping system
+#### 🔧 技术改进
+- 增强了 ModBlocks.java 的综合道路方块注册
+- 更新了创造模式物品栏的道路方块分类
+- 为所有道路方块提供了完整的中文本地化
+- 标准化了纹理映射系统
 
 ---
 
 ## v1.0.0 - 2025-10-29
-**Initial Release**
+**初始发布**
 
-### 🆕 New Content
-- **Basic Mod Framework**: Complete Forge 1.20.1 mod structure
-- **Building Blocks**:
-  - Urban Block (urban_block)
-  - Modern Block (modern_block) 
-  - Glass Curtain Wall (glass_curtain_wall)
-- **Functional Items**:
-  - Urban Bread (urban_bread) - Edible food
-  - Blueprint (blueprint)
-  - Building Tool (building_tool)
-- **UI Support**:
-  - Custom creative mode tab
-  - Complete Chinese and English language files
-- **Technical Features**:
-  - Complete block states and model definitions
-  - Standard META-INF configuration
-  - Gradle build system configuration
+#### 🆕 新增内容
+- **基础模组框架**: 完整的 Forge 1.20.1 模组结构
+- **建筑方块**:
+  - 都市方块 (urban_block)
+  - 现代方块 (modern_block) 
+  - 玻璃幕墙 (glass_curtain_wall)
+- **功能物品**:
+  - 都市面包 (urban_bread) - 可食用食物
+  - 蓝图 (blueprint)
+  - 建筑工具 (building_tool)
+- **UI支持**:
+  - 自定义创造模式物品栏
+  - 完整的中文和英文语言文件
+- **技术特性**:
+  - 完整的方块状态和模型定义
+  - 标准 META-INF 配置
+  - Gradle 构建系统配置
 
-### 🔧 Technical Improvements
-- Built on Forge 47.2.0
-- Supports Minecraft 1.20.1
-- Compiled with Java 17
-- Complete build and development environment configuration
-
----
-
-## Future Version Planning
-
-### v1.1.0 (Planned)
-- [ ] Add block textures
-- [ ] Implement building tool functionality
-- [ ] Add crafting recipes
-- [ ] Optimize creative mode categorization
-
-### v1.2.0 (Planned)  
-- [ ] Add more building block variants
-- [ ] Implement blueprint usage functionality
-- [ ] Add building structure generation
-- [ ] Optimize performance
+#### 🔧 技术改进
+- 基于 Forge 47.2.0 构建
+- 支持 Minecraft 1.20.1
+- 使用 Java 17 编译
+- 完整的构建和开发环境配置
 
 ---
 
-## Version Naming Convention
-- **Major Version** (v1.x.x): Major feature updates or architectural changes
-- **Minor Version** (vx.1.x): New feature additions
-- **Patch Version** (vx.x.1): Bug fixes and optimizations
+## 未来版本规划 (Future Version Planning)
 
-## Update Record Format
-Each update should include:
-- Version number and release date
-- New features (🆕)
-- Improvements and optimizations (🔧)  
-- Bug fixes (🐛)
-- Known issues (⚠️)
+### v1.1.0 (计划中)
+- [ ] 添加方块纹理
+- [ ] 实现建筑工具功能
+- [ ] 添加合成配方
+- [ ] 优化创造模式分类
+
+### v1.2.0 (计划中)  
+- [ ] 添加更多建筑方块变体
+- [ ] 实现蓝图使用功能
+- [ ] 添加建筑结构生成
+- [ ] 优化性能
+
+---
+
+## 版本命名规范 (Version Naming Convention)
+- **主版本号** (v1.x.x): 重大功能更新或架构变更
+- **次版本号** (vx.1.x): 新功能添加
+- **修订版本号** (vx.x.1): 错误修复和优化
+
+## 更新记录格式 (Update Record Format)
+每个版本更新应包含：
+- 版本号和发布日期
+- 新增内容 (🆕)
+- 改进和优化 (🔧)
+- 错误修复 (🐛)
+- 已知问题 (⚠️)
