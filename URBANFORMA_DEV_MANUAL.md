@@ -25,36 +25,42 @@
 项目遵循标准的 Forge Mod 结构，以下是关键目录的详细说明：
 
 ```
-d:\UrbanForma
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── com
-│   │   │       └── urbanforma
-│   │   │           ├── block           // [核心] 自定义方块类存放处
-│   │   │           │   ├── HeightRoadBlock.java        // 自定义高度方块（用于路缘石等）
-│   │   │           │   ├── DirectionalRoadBlock.java   // 带方向的方块（用于标线等）
-│   │   │           │   └── ...
-│   │   │           ├── item            // 自定义物品类存放处
-│   │   │           ├── ModBlocks.java  // [核心] 方块注册中心，所有方块在此实例化
-│   │   │           ├── ModItems.java   // 物品注册中心，通常引用 ModBlocks 中的方块
-│   │   │           ├── ModCreativeTabs.java // 创造模式物品栏配置
-│   │   │           └── UrbanForma.java // 模组主类，负责事件总线注册和初始化
-│   │   └── resources
-│   │       ├── META-INF
-│   │       │   └── mods.toml       // 模组核心元数据 (定义 ModID, 版本, 依赖关系)
-│   │       ├── assets
-│   │       │   └── urbanforma
-│   │       │       ├── blockstates // [资源] 定义方块在不同状态（如旋转、变种）下使用哪个模型
-│   │       │       ├── lang        // [资源] 语言文件 (zh_cn.json 是必须维护的)
-│   │       │       ├── models
-│   │       │       │   ├── block   // [资源] 方块模型定义 (几何形状、纹理映射)
-│   │       │       │   └── item    // [资源] 物品模型定义 (通常父级指向 block 模型)
-│   │       │       └── textures
-│   │       │           └── block   // [资源] 方块的 PNG 贴图文件
-│   │       └── data                // (可选) 数据包内容，如配方(recipes)、掉落表(loot_tables)
-├── build.gradle                    // Gradle 构建脚本，定义依赖和构建任务
-└── README.md                       // 项目说明文档
+d:\UrbanForma\
+└── Forge\
+    └── 1.20.1\                       // [新结构] Minecraft 1.20.1 版本目录
+        ├── src
+        │   ├── main
+        │   │   ├── java
+        │   │   │   └── com
+        │   │   │       └── urbanforma
+        │   │   │           ├── block           // [核心] 自定义方块类存放处
+        │   │   │           │   ├── HeightRoadBlock.java        // 自定义高度方块（用于路缘石等）
+        │   │   │           │   ├── DirectionalRoadBlock.java   // 带方向的方块（用于标线等）
+        │   │   │           │   └── ...
+        │   │   │           ├── item            // 自定义物品类存放处
+        │   │   │           ├── ModBlocks.java  // [核心] 方块注册中心，所有方块在此实例化
+        │   │   │           ├── ModItems.java   // 物品注册中心，通常引用 ModBlocks 中的方块
+        │   │   │           ├── ModCreativeTabs.java // 创造模式物品栏配置
+        │   │   │           └── UrbanForma.java // 模组主类，负责事件总线注册和初始化
+        │   │   └── resources
+        │   │       ├── META-INF
+        │   │       │   └── mods.toml       // 模组核心元数据 (定义 ModID, 版本, 依赖关系)
+        │   │       ├── assets
+        │   │       │   └── urbanforma
+        │   │       │       ├── blockstates // [资源] 定义方块在不同状态（如旋转、变种）下使用哪个模型
+        │   │       │       ├── lang        // [资源] 语言文件 (zh_cn.json 是必须维护的)
+        │   │       │       ├── models
+        │   │       │       │   ├── block   // [资源] 方块模型定义 (几何形状、纹理映射)
+        │   │       │       │   └── item    // [资源] 物品模型定义 (通常父级指向 block 模型)
+        │   │       │       └── textures
+        │   │       │           └── block   // [资源] 方块的 PNG 贴图文件
+        │   │       └── data                // (可选) 数据包内容，如配方(recipes)、掉落表(loot_tables)
+        ├── CHANGELOG.md                    // 版本更新记录
+        ├── URBANFORMA_DEV_MANUAL.md        // 开发手册 (本文件)
+        ├── 工作流程检查表.md                // 工作流程检查表
+        ├── build.gradle                    // Gradle 构建脚本，定义依赖和构建任务
+        ├── gradle.properties               // 模组版本配置
+        └── README.md                       // 项目说明文档
 ```
 
 ### 2.2 资源文件详解
@@ -140,7 +146,7 @@ if (event.getTabKey() == ModCreativeTabs.URBANFORMA_BASE_TAB.getKey()) {
 - **构建模组**:
 
     ```powershell
-    cd d:\UrbanForma; gradle build
+    cd d:\UrbanForma\Forge\1.20.1; gradle build
     ```
 
     此命令会编译代码并生成 `.jar` 文件，通常位于 `build/libs` 目录下。
@@ -148,7 +154,7 @@ if (event.getTabKey() == ModCreativeTabs.URBANFORMA_BASE_TAB.getKey()) {
 - **启动测试客户端**:
 
     ```powershell
-    cd d:\UrbanForma; .\gradlew runClient
+    cd d:\UrbanForma\Forge\1.20.1; .\gradlew runClient
     ```
 
     此命令会启动一个独立的 Minecraft 客户端环境，用于测试模组功能。
@@ -236,7 +242,7 @@ if (event.getTabKey() == ModCreativeTabs.URBANFORMA_BASE_TAB.getKey()) {
 ### 5.3 特殊功能类说明
 
 - **`DirectionalRoadBlock`**:
-  - 核心逻辑: 在 `getStateForPlacement` 中获取玩家视角的对面方向 (`getOpposite`)，实现“面向玩家”的放置效果。
+  - 核心逻辑: 在 `getStateForPlacement` 中获取玩家视角的对面方向 (`getOpposite`)，实现"面向玩家"的放置效果。
   - 状态属性: `FACING` (DirectionProperty)。
 - **`HeightRoadBlock`**:
   - 核心逻辑: 重写 `getShape`, `getCollisionShape`, `getOcclusionShape`，返回基于 `height` 参数构建的 `VoxelShape`。
@@ -267,18 +273,18 @@ if (event.getTabKey() == ModCreativeTabs.URBANFORMA_BASE_TAB.getKey()) {
 
 ## 7. 版本历史记录 (Version History)
 
-### v1.05d - 2025-11-05
-**俄语本地化和版本更新**
+### v1.05d - 2025-11-23
+**文件结构重组和韩语翻译修复**
 
-#### 🌍 本地化
-- **俄语语言支持**: 添加了完整的俄语本地化文件 (ru_ru.json)
-- **专业翻译**: 使用了地道的俄语术语和颜色命名
-- **完整覆盖**: 翻译了全部72个彩色建筑块系列和道路系统组件
+#### 🆕 新增内容
+- **文件结构重组**: 重新组织项目文件结构，支持多版本开发
+- **新目录结构**: 创建了 Forge/1.20.1 子目录结构
+- **文档更新**: 更新了所有文档以反映新的文件结构
 
 #### 🔧 技术改进
-- 更新模组版本为 1.05d
-- 增强了多语言支持系统
-- 改进了本地化一致性
+- 修复了韩语翻译缺失问题
+- 更新了所有构建命令路径
+- 优化了项目目录结构，为未来版本支持做准备
 
 ---
 
