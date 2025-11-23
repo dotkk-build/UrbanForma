@@ -8,7 +8,7 @@
 
 - **模组名称**: UrbanForma (都市构方)
 - **模组 ID**: `urbanforma`
-- **加载器**: Forge (1.20.1)
+- **加载器**: Forge (1.18.2)
 - **主类**: `com.urbanforma.UrbanForma`
 - **项目定位**: 这是一个专注于现代城市建设的装饰性模组，提供大量高精度的道路标线、路缘石以及丰富的彩色建筑方块。
 - **开发原则**:
@@ -27,7 +27,7 @@
 ```
 d:\UrbanForma\
 └── Forge\
-    └── 1.20.1\                       // [新结构] Minecraft 1.20.1 版本目录
+    └── 1.18.2\                       // [新结构] Minecraft 1.18.2 版本目录
         ├── src
         │   ├── main
         │   │   ├── java
@@ -114,7 +114,7 @@ d:\UrbanForma\
 
 - `registerBasicBlock(name)`: 注册一个标准的、无特殊功能的建筑方块。
 - `registerGlowingBlock(name)`: 注册一个发光等级为 15 的方块。
-- `registerSlabBlock(name)`: 注册对应的半砖版本。
+- `registerSlabBlock(name, baseBlock)`: 注册对应的半砖版本。
 - `registerStairBlock(name, baseBlock)`: 注册对应的楼梯版本（需传入基础方块以继承材质）。
 - `registerHeightRoadBlock(name, height)`: 注册自定义高度的道路方块（高度单位为像素，范围 0-16）。
 - `registerDirectionalRoadBlock(name)`: 注册带方向的道路标线方块。
@@ -146,7 +146,7 @@ if (event.getTabKey() == ModCreativeTabs.URBANFORMA_BASE_TAB.getKey()) {
 - **构建模组**:
 
     ```powershell
-    cd d:\UrbanForma\Forge\1.20.1; gradle build
+    cd d:\UrbanForma\Forge\1.18.2; gradle build
     ```
 
     此命令会编译代码并生成 `.jar` 文件，通常位于 `build/libs` 目录下。
@@ -154,7 +154,7 @@ if (event.getTabKey() == ModCreativeTabs.URBANFORMA_BASE_TAB.getKey()) {
 - **启动测试客户端**:
 
     ```powershell
-    cd d:\UrbanForma\Forge\1.20.1; .\gradlew runClient
+    cd d:\UrbanForma\Forge\1.18.2; .\gradlew runClient
     ```
 
     此命令会启动一个独立的 Minecraft 客户端环境，用于测试模组功能。
@@ -274,16 +274,16 @@ if (event.getTabKey() == ModCreativeTabs.URBANFORMA_BASE_TAB.getKey()) {
 ## 7. 版本历史记录 (Version History)
 
 ### v1.05d - 2025-11-23
-**文件结构重组和韩语翻译修复**
+**Minecraft 1.18.2 版本移植**
 
 #### 🆕 新增内容
+- **新版本支持**: 成功移植到 Minecraft 1.18.2 和 Forge 40.2.4
 - **文件结构重组**: 重新组织项目文件结构，支持多版本开发
-- **新目录结构**: 创建了 Forge/1.20.1 子目录结构
-- **文档更新**: 更新了所有文档以反映新的文件结构
+- **新目录结构**: 创建了 Forge/1.18.2 子目录结构
 
 #### 🔧 技术改进
-- 修复了韩语翻译缺失问题
-- 更新了所有构建命令路径
+- 更新了构建脚本以适配 Minecraft 1.18.2
+- 修改了所有配置文件以适配新版本
 - 优化了项目目录结构，为未来版本支持做准备
 
 ---

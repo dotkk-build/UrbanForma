@@ -13,13 +13,13 @@ logoFile="1_Urban Formalogo.png"
 [[dependencies]]
     modId="forge"
     mandatory=true
-    versionRange="[47.2.0,)"
+    versionRange="[40.2.4,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.20.1,1.21)"
+    versionRange="[1.18.2,1.19)"
     ordering="NONE"
     side="BOTH"

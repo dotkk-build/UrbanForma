@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+      { "model": "urbanforma:block/r_white", "y": 0, "weight": 1 },
+      { "model": "urbanforma:block/r_white", "y": 90, "weight": 1 },
+      { "model": "urbanforma:block/r_white", "y": 180, "weight": 1 },
+      { "model": "urbanforma:block/r_white", "y": 270, "weight": 1 }
+    ]
+  }
+}

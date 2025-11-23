@@ -12,14 +12,15 @@ UrbanForma是一个Minecraft模组，专注于现代城市建设和都市元素�
 
 ## 版本历史
 
-### v1.05d - 2025-11-05
-- 新增俄语本地化支持
-- 更新版本到 1.05d
-- 改进多语言支持系统
+### v1.05d - 2025-11-23
+- 移植到 Minecraft 1.18.2
+- 更新为 Forge 40.2.4
+- 重组项目文件结构，支持多版本开发
 
 ### v1.05c - 2025-11-05
 - 新增韩语本地化支持
 - 更新版本到 1.05c
+- 改进多语言支持系统
 
 ### v1.05b - 2025-11-05
 - 新增日语本地化支持
@@ -36,20 +37,24 @@ UrbanForma是一个Minecraft模组，专注于现代城市建设和都市元素�
 ## 项目结构
 ```
 UrbanForma/
-├── src/                    # 源代码目录
-│   └── main/
-│       ├── java/          # Java源代码
-│       └── resources/     # 资源文件
-├── assets/                # 资源文件夹
-│   └── urbanforma/
-│       ├── textures/      # 贴图文件夹
-│       ├── lang/          # 语言文件
-│       ├── models/        # 模型文件
-│       └── blockstates/   # 方块状态文件
-├── build.gradle           # Gradle构建配置
-├── settings.gradle        # Gradle设置文件
-├── gradle.properties      # Gradle属性配置
-└── README.md              # 项目说明文档
+└── Forge/
+    └── 1.18.2/           # Minecraft 1.18.2 版本目录
+        ├── src/                    # 源代码目录
+        │   └── main/
+        │       ├── java/          # Java源代码
+        │       └── resources/     # 资源文件
+        ├── assets/                # 资源文件夹
+        │   └── urbanforma/
+        │       ├── textures/      # 贴图文件夹
+        │       ├── lang/          # 语言文件
+        │       ├── models/        # 模型文件
+        │       └── blockstates/   # 方块状态文件
+        ├── CHANGELOG.md           # 版本更新记录
+        ├── URBANFORMA_DEV_MANUAL.md # 开发手册
+        ├── 工作流程检查表.md       # 工作流程检查表
+        ├── build.gradle           # Gradle构建配置
+        ├── gradle.properties      # Gradle属性配置
+        └── README.md              # 项目说明文档
 ```
 
 ### 贴图文件夹结构
@@ -63,7 +68,7 @@ textures/
 
 ### 开发环境要求
 - Java 17+
-- Minecraft Forge 1.20.1
+- Minecraft Forge 1.18.2
 - Gradle 7.0+
 
 ### 代码结构
@@ -107,7 +112,7 @@ UrbanForma模组提供三个专门的创造模式标签页，便于管理和使�
 ## 开发信息
 
 ### 技术规格
-- 基于Minecraft Forge 1.20.1
+- 基于Minecraft Forge 1.18.2
 - 使用Java 17开发
 - 100% AI生成代码，无人工修改
 - 支持多语言本地化系统
