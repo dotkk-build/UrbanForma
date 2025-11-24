@@ -1,8 +1,0 @@
-{
-  "parent": "block/slab_top",
-  "textures": {
-    "bottom": "urbanforma:block/b_rikyu_gray",
-    "top": "urbanforma:block/b_rikyu_gray",
-    "side": "urbanforma:block/b_rikyu_gray"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "bottom": "urbanforma:block/b_dark_gray_4",
-    "top": "urbanforma:block/b_dark_gray_4",
-    "side": "urbanforma:block/b_dark_gray_4"
-  }
-}

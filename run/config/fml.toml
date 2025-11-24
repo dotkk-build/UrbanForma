@@ -1,8 +1,0 @@
-#Enable forge global version checking
-versionCheck = true
-splashscreen = true
-#Default config path for servers
-defaultConfigPath = "defaultconfigs"
-#Max threads for early initialization parallelism,  -1 is based on processor count
-maxThreads = -1
-
