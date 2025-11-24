@@ -1,7 +1,7 @@
 {
-  "itemGroup.a_1_urbanforma_base": "都市构方基础",
-  "itemGroup.a_2_urbanforma_road": "都市构方道路",
-  "itemGroup.a_3_urbanforma_other": "都市构方其他",
+  "itemGroup.urbanforma_base": "都市构方基础",
+  "itemGroup.urbanforma_road": "都市构方道路",
+  "itemGroup.urbanforma_other": "都市构方其他",
 
   
   "block.urbanforma.w_bb": "白色建筑方块",

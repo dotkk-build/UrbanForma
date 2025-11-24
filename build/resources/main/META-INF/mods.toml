@@ -4,22 +4,22 @@ license="MIT"
 
 [[mods]]
 modId="urbanforma"
-version="1.05"
+version="1.05d"
 displayName="UrbanForma"
-description='''这是�?个添加更多装饰�?�方块的模组This is a mod that adds more decorative blocks.'''
+description='''这是一个添加更多装饰性方块的模组This is a mod that adds more decorative blocks.'''
 authors="Dotkk"
 logoFile="1_Urban Formalogo.png"
 
 [[dependencies]]
     modId="forge"
     mandatory=true
-    versionRange="[47.4.0,)"
+    versionRange="[40.2.4,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.20.1,1.21)"
+    versionRange="[1.18.2,1.19)"
     ordering="NONE"
     side="BOTH"

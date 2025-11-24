@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "urbanforma:block/b_red_vermillion_2",
+    "top": "urbanforma:block/b_red_vermillion_2",
+    "side": "urbanforma:block/b_red_vermillion_2"
+  }
+}
