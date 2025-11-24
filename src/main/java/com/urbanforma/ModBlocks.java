@@ -4,7 +4,8 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.MaterialColor;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -19,14 +20,12 @@ public class ModBlocks {
         DeferredRegister.create(ForgeRegistries.ITEMS, UrbanForma.MODID);
     
     // 通用方块属性配置
-    private static final BlockBehaviour.Properties BASIC_PROPERTIES = BlockBehaviour.Properties.of()
-        .mapColor(MapColor.STONE)
+    private static final BlockBehaviour.Properties BASIC_PROPERTIES = BlockBehaviour.Properties.of(Material.STONE)
         .strength(2.0f)
         .requiresCorrectToolForDrops()
         .sound(SoundType.STONE);
     
-    private static final BlockBehaviour.Properties GLOWING_PROPERTIES = BlockBehaviour.Properties.of()
-        .mapColor(MapColor.STONE)
+    private static final BlockBehaviour.Properties GLOWING_PROPERTIES = BlockBehaviour.Properties.of(Material.STONE)
         .strength(2.0f)
         .requiresCorrectToolForDrops()
         .sound(SoundType.STONE)
