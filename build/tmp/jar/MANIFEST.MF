@@ -3,6 +3,6 @@ Specification-Title: urbanforma
 Specification-Vendor: YourName
 Specification-Version: 1
 Implementation-Title: urbanforma
-Implementation-Version: 1.05d
+Implementation-Version: 1.06
 Implementation-Vendor: YourName
 

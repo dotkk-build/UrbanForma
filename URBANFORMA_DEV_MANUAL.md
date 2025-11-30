@@ -203,6 +203,8 @@ if (event.getTabKey() == ModCreativeTabs.URBANFORMA_BASE_TAB.getKey()) {
 - **发光方块**: `[前缀]_gbb` (Glowing Building Block)
 - **半砖**: `[前缀]_sbb` (Slab Building Block)
 - **楼梯**: `[前缀]_stbb` (Stairs Building Block)
+- **边墙**: `[前缀]_border` (Border Wall) - 半宽方块(8像素)，支持四方向旋转
+- **细边墙**: `[前缀]_thin_border` (Thin Border Wall) - 细边墙方块(4像素)，支持四方向旋转
 
 **前缀示例**:
 
@@ -249,6 +251,14 @@ if (event.getTabKey() == ModCreativeTabs.URBANFORMA_BASE_TAB.getKey()) {
   - 构造参数: `float height` (像素单位)。
 - **`DirectionalHeightRoadBlock`**:
   - 核心逻辑: 同时继承了上述两者的特性，既有自定义高度，又能旋转方向。常用于带有标线的路缘石。
+- **`BorderWallBlock`**:
+  - 核心逻辑: 半宽方块(8像素)，支持四方向旋转。默认放置方向比玩家面向的方向顺时针旋转90度。
+  - 状态属性: `FACING` (DirectionProperty)。
+  - 形状定义: 根据方向返回不同的VoxelShape，确保视觉表现和碰撞体积一致。
+- **`ThinBorderWallBlock`**:
+  - 核心逻辑: 细边墙方块(4像素)，支持四方向旋转。默认放置方向比玩家面向的方向顺时针旋转90度。
+  - 状态属性: `FACING` (DirectionProperty)。
+  - 形状定义: 根据方向返回不同的VoxelShape，确保视觉表现和碰撞体积一致。
 
 ---
 
@@ -272,6 +282,37 @@ if (event.getTabKey() == ModCreativeTabs.URBANFORMA_BASE_TAB.getKey()) {
 ---
 
 ## 7. 版本历史记录 (Version History)
+
+### v1.06 - 2025-11-30
+**边墙系统完善和技术规范统一**
+
+#### 🆕 新增内容
+- **边墙方块系统**: 添加了白色边墙方块 (WHITE_BORDER_WALL)
+- **细边墙方块**: 添加了白色细边墙方块 (WHITE_THIN_BORDER_WALL)
+- **四方向旋转**: 两种边墙方块均支持完整的四方向旋转
+- **自定义碰撞体积**: 实现了与视觉效果一致的精确碰撞体积
+- **自定义方块类**: 
+  - BorderWallBlock: 半宽方块(8像素)
+  - ThinBorderWallBlock: 细边墙方块(4像素)
+
+#### 🎯 功能特性
+- **智能放置方向**: 默认放置方向比玩家面向的方向顺时针旋转90度
+- **精确碰撞体积**: 8像素和4像素宽度与视觉效果完全匹配
+- **旋转支持**: 北、南、东、西四个方向的完整支持
+- **纹理一致性**: 使用现有的 b_white.png 贴图，保持视觉风格统一
+
+#### 🔧 技术改进
+- 完整的方块状态和模型定义
+- 简化的注册方法 (registerBorderWallBlock, registerThinBorderWallBlock)
+- 标准化的创造模式物品栏分类
+- 完整的中英双语本地化支持
+
+#### 📚 文档更新
+- 更新开发手册中的方块参考和命名规则
+- 完善边墙方块的技术文档和使用说明
+- 添加自定义方块类的详细说明
+
+---
 
 ### v1.05d - 2025-11-23
 **文件结构重组和韩语翻译修复**

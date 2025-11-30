@@ -23,6 +23,8 @@ public class ModCreativeTabs {
                 output.accept(ModBlocks.WHITE_GLOWING_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.WHITE_SLAB_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.WHITE_STAIRS_BUILDING_BLOCK.get());
+                output.accept(ModBlocks.WHITE_BORDER_WALL.get());
+                output.accept(ModBlocks.WHITE_THIN_BORDER_WALL.get());
                 
                 // 亮灰系列方块 (1-3)
                 output.accept(ModBlocks.LIGHT_GRAY_1_BUILDING_BLOCK.get());

@@ -4,9 +4,9 @@ license="MIT"
 
 [[mods]]
 modId="urbanforma"
-version="1.05d"
+version="1.06"
 displayName="UrbanForma"
-description='''A modern urban construction mod'''
+description='''A mod that adds more decorative blocks for modern urban construction.'''
 authors="YourName"
 logoFile="1_Urban Formalogo.png"
 

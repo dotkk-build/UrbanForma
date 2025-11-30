@@ -7,6 +7,8 @@
   "block.urbanforma.w_gbb": "White Glowing Building Block",
   "block.urbanforma.w_sbb": "White Slab Building Block",
   "block.urbanforma.w_stbb": "White Stairs Building Block",
+  "block.urbanforma.w_bb_border": "White Border Wall",
+  "block.urbanforma.w_bb_thin_border": "White Thin Border Wall",
   
   "block.urbanforma.lg_1_bb": "Light Gray 1 Building Block",
   "block.urbanforma.lg_1_gbb": "Light Gray 1 Glowing Building Block",
