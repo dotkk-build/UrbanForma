@@ -80,6 +80,8 @@ public class ModBlocks {
         return registerBlock(name, () -> new com.urbanforma.block.ThinBorderWallBlock(BASIC_PROPERTIES));
     }
     
+
+    
     // 白色系列方块
     public static final RegistryObject<Block> WHITE_BUILDING_BLOCK = registerBasicBlock("w_bb");
     public static final RegistryObject<Block> WHITE_GLOWING_BUILDING_BLOCK = registerGlowingBlock("w_gbb");
@@ -91,6 +93,12 @@ public class ModBlocks {
     
     // 白色细边墙方块
     public static final RegistryObject<Block> WHITE_THIN_BORDER_WALL = registerThinBorderWallBlock("w_bb_thin_border");
+    
+    // 白色玻璃方块
+    public static final RegistryObject<Block> WHITE_GLASS = registerBlock("w_glass", () -> new com.urbanforma.block.WhiteGlassBlock());
+    
+    // 白色玻璃片方块
+    public static final RegistryObject<Block> WHITE_GLASS_PANE = registerBlock("w_glass_pane", () -> new com.urbanforma.block.WhiteGlassPaneBlock());
     
     // 亮灰系列方块 (1-3)
     public static final RegistryObject<Block> LIGHT_GRAY_1_BUILDING_BLOCK = registerBasicBlock("lg_1_bb");

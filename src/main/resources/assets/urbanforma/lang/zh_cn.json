@@ -10,6 +10,8 @@
   "block.urbanforma.w_stbb": "白色楼梯建筑方块",
   "block.urbanforma.w_bb_border": "白色边墙",
   "block.urbanforma.w_bb_thin_border": "白色细边墙",
+  "block.urbanforma.w_glass": "白色玻璃",
+  "block.urbanforma.w_glass_pane": "白色玻璃片",
   
   "block.urbanforma.lg_1_bb": "亮灰-1建筑方块",
   "block.urbanforma.lg_1_gbb": "亮灰-1发光建筑方块",

@@ -205,6 +205,8 @@ if (event.getTabKey() == ModCreativeTabs.URBANFORMA_BASE_TAB.getKey()) {
 - **楼梯**: `[前缀]_stbb` (Stairs Building Block)
 - **边墙**: `[前缀]_border` (Border Wall) - 半宽方块(8像素)，支持四方向旋转
 - **细边墙**: `[前缀]_thin_border` (Thin Border Wall) - 细边墙方块(4像素)，支持四方向旋转
+- **玻璃**: `[前缀]_glass` (Glass) - 透明玻璃方块，继承自GlassBlock
+- **玻璃片**: `[前缀]_glass_pane` (Glass Pane) - 基于细边墙的玻璃片(4像素)，继承自GlassBlock，支持四方向旋转
 
 **前缀示例**:
 
@@ -282,6 +284,25 @@ if (event.getTabKey() == ModCreativeTabs.URBANFORMA_BASE_TAB.getKey()) {
 ---
 
 ## 7. 版本历史记录 (Version History)
+
+### v1.07 - 2025-12-01
+**白色玻璃系统添加和调整**
+
+#### 🆕 新增内容
+- **白色玻璃方块**: 添加了白色玻璃方块 (WHITE_GLASS)，透明材质，适合作为建筑窗户玻璃
+- **白色玻璃片方块**: 添加了白色玻璃片方块 (WHITE_GLASS_PANE)，基于白色细边墙的4像素宽玻璃片，支持四方向旋转
+- **玻璃方块类**: 实现了WhiteGlassBlock类，继承自GlassBlock
+- **玻璃片方块类**: 实现了WhiteGlassPaneBlock类，继承自GlassBlock并支持方向旋转
+- **资源文件**: 为两种新方块创建了完整的方块状态、模型、物品模型和语言文件
+
+#### 🎯 功能特性
+- **透明渲染**: 实现了白色玻璃和白色玻璃片的透明渲染层设置
+- **UV贴图映射**: 优化了白色玻璃片的UV贴图映射，确保只显示4像素宽区域的贴图
+- **智能放置方向**: 默认放置方向比玩家面向的方向逆时针旋转180度
+
+#### 📚 技术文档更新
+- 更新了URBANFORMA_DEV_MANUAL.md，添加了白色玻璃和白色玻璃片的特殊功能类说明
+- 在命名规范中增加了玻璃和玻璃片的说明
 
 ### v1.06 - 2025-11-30
 **边墙系统完善和技术规范统一**

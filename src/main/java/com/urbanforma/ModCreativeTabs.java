@@ -449,7 +449,10 @@ public class ModCreativeTabs {
             .title(Component.translatable("itemGroup.a_3_urbanforma_other"))
             .icon(() -> new ItemStack(ModBlocks.WHITE_BUILDING_BLOCK.get()))
             .displayItems((parameters, output) -> {
-                // 这里可以添加其他物品
+                // 白色玻璃方块
+                output.accept(ModBlocks.WHITE_GLASS.get());
+                // 白色玻璃片方块
+                output.accept(ModBlocks.WHITE_GLASS_PANE.get());
             })
             .build());
 
