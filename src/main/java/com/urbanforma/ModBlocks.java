@@ -135,10 +135,50 @@ public class ModBlocks {
     public static final RegistryObject<Block> BLACK_THIN_BORDER_WALL = registerThinBorderWallBlock("b_bb_thin_border");
     
     // 白色玻璃方块
-    public static final RegistryObject<Block> WHITE_GLASS = registerBlock("w_glass", () -> new com.urbanforma.block.WhiteGlassBlock());
+    public static final RegistryObject<Block> WHITE_GLASS = registerBlock("w_glass", () -> new com.urbanforma.block.UrbanGlassBlock());
     
     // 白色玻璃片方块
-    public static final RegistryObject<Block> WHITE_GLASS_PANE = registerBlock("w_glass_pane", () -> new com.urbanforma.block.WhiteGlassPaneBlock());
+    public static final RegistryObject<Block> WHITE_GLASS_PANE = registerBlock("w_glass_pane", () -> new com.urbanforma.block.UrbanGlassPaneBlock());
+    
+    // 亮灰系列玻璃和玻璃片
+    public static final RegistryObject<Block> LIGHT_GRAY_1_GLASS = registerBlock("lg_1_glass", () -> new com.urbanforma.block.UrbanGlassBlock());
+    public static final RegistryObject<Block> LIGHT_GRAY_1_GLASS_PANE = registerBlock("lg_1_glass_pane", () -> new com.urbanforma.block.UrbanGlassPaneBlock());
+    
+    public static final RegistryObject<Block> LIGHT_GRAY_2_GLASS = registerBlock("lg_2_glass", () -> new com.urbanforma.block.UrbanGlassBlock());
+    public static final RegistryObject<Block> LIGHT_GRAY_2_GLASS_PANE = registerBlock("lg_2_glass_pane", () -> new com.urbanforma.block.UrbanGlassPaneBlock());
+    
+    public static final RegistryObject<Block> LIGHT_GRAY_3_GLASS = registerBlock("lg_3_glass", () -> new com.urbanforma.block.UrbanGlassBlock());
+    public static final RegistryObject<Block> LIGHT_GRAY_3_GLASS_PANE = registerBlock("lg_3_glass_pane", () -> new com.urbanforma.block.UrbanGlassPaneBlock());
+    
+    // 中灰系列玻璃和玻璃片
+    public static final RegistryObject<Block> MEDIUM_GRAY_1_GLASS = registerBlock("mg_1_glass", () -> new com.urbanforma.block.UrbanGlassBlock());
+    public static final RegistryObject<Block> MEDIUM_GRAY_1_GLASS_PANE = registerBlock("mg_1_glass_pane", () -> new com.urbanforma.block.UrbanGlassPaneBlock());
+    
+    public static final RegistryObject<Block> MEDIUM_GRAY_2_GLASS = registerBlock("mg_2_glass", () -> new com.urbanforma.block.UrbanGlassBlock());
+    public static final RegistryObject<Block> MEDIUM_GRAY_2_GLASS_PANE = registerBlock("mg_2_glass_pane", () -> new com.urbanforma.block.UrbanGlassPaneBlock());
+    
+    public static final RegistryObject<Block> MEDIUM_GRAY_3_GLASS = registerBlock("mg_3_glass", () -> new com.urbanforma.block.UrbanGlassBlock());
+    public static final RegistryObject<Block> MEDIUM_GRAY_3_GLASS_PANE = registerBlock("mg_3_glass_pane", () -> new com.urbanforma.block.UrbanGlassPaneBlock());
+    
+    // 暗灰系列玻璃和玻璃片
+    public static final RegistryObject<Block> DARK_GRAY_1_GLASS = registerBlock("dg_1_glass", () -> new com.urbanforma.block.UrbanGlassBlock());
+    public static final RegistryObject<Block> DARK_GRAY_1_GLASS_PANE = registerBlock("dg_1_glass_pane", () -> new com.urbanforma.block.UrbanGlassPaneBlock());
+    
+    public static final RegistryObject<Block> DARK_GRAY_2_GLASS = registerBlock("dg_2_glass", () -> new com.urbanforma.block.UrbanGlassBlock());
+    public static final RegistryObject<Block> DARK_GRAY_2_GLASS_PANE = registerBlock("dg_2_glass_pane", () -> new com.urbanforma.block.UrbanGlassPaneBlock());
+    
+    public static final RegistryObject<Block> DARK_GRAY_3_GLASS = registerBlock("dg_3_glass", () -> new com.urbanforma.block.UrbanGlassBlock());
+    public static final RegistryObject<Block> DARK_GRAY_3_GLASS_PANE = registerBlock("dg_3_glass_pane", () -> new com.urbanforma.block.UrbanGlassPaneBlock());
+    
+    public static final RegistryObject<Block> DARK_GRAY_4_GLASS = registerBlock("dg_4_glass", () -> new com.urbanforma.block.UrbanGlassBlock());
+    public static final RegistryObject<Block> DARK_GRAY_4_GLASS_PANE = registerBlock("dg_4_glass_pane", () -> new com.urbanforma.block.UrbanGlassPaneBlock());
+    
+    // 黑灰和黑色系列玻璃和玻璃片
+    public static final RegistryObject<Block> BLACKISH_GRAY_GLASS = registerBlock("bgr_glass", () -> new com.urbanforma.block.UrbanGlassBlock());
+    public static final RegistryObject<Block> BLACKISH_GRAY_GLASS_PANE = registerBlock("bgr_glass_pane", () -> new com.urbanforma.block.UrbanGlassPaneBlock());
+    
+    public static final RegistryObject<Block> BLACK_GLASS = registerBlock("bla_glass", () -> new com.urbanforma.block.UrbanGlassBlock());
+    public static final RegistryObject<Block> BLACK_GLASS_PANE = registerBlock("bla_glass_pane", () -> new com.urbanforma.block.UrbanGlassPaneBlock());
     
     // 亮灰系列方块 (1-3)
     public static final RegistryObject<Block> LIGHT_GRAY_1_BUILDING_BLOCK = registerBasicBlock("lg_1_bb");

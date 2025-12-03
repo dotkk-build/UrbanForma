@@ -26,6 +26,8 @@ public class ModCreativeTabs {
                 output.accept(ModBlocks.WHITE_BORDER_WALL.get());
                 output.accept(ModBlocks.WHITE_THIN_BORDER_WALL.get());
                 
+
+                
                 // 亮灰系列方块 (1-3)
                 output.accept(ModBlocks.LIGHT_GRAY_1_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.LIGHT_GRAY_1_GLOWING_BUILDING_BLOCK.get());
@@ -48,6 +50,8 @@ public class ModCreativeTabs {
                 output.accept(ModBlocks.LIGHT_GRAY_3_BORDER_WALL.get());
                 output.accept(ModBlocks.LIGHT_GRAY_3_THIN_BORDER_WALL.get());
                 
+
+                
                 // 中灰系列方块 (1-3)
                 output.accept(ModBlocks.MEDIUM_GRAY_1_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.MEDIUM_GRAY_1_GLOWING_BUILDING_BLOCK.get());
@@ -69,6 +73,8 @@ public class ModCreativeTabs {
                 output.accept(ModBlocks.MEDIUM_GRAY_3_STAIRS_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.MEDIUM_GRAY_3_BORDER_WALL.get());
                 output.accept(ModBlocks.MEDIUM_GRAY_3_THIN_BORDER_WALL.get());
+                
+
                 
                 // 暗灰系列方块 (1-4)
                 output.accept(ModBlocks.DARK_GRAY_1_BUILDING_BLOCK.get());
@@ -99,6 +105,8 @@ public class ModCreativeTabs {
                 output.accept(ModBlocks.DARK_GRAY_4_BORDER_WALL.get());
                 output.accept(ModBlocks.DARK_GRAY_4_THIN_BORDER_WALL.get());
                 
+
+                
                 // 黑灰系列方块
                 output.accept(ModBlocks.BLACKISH_GRAY_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.BLACKISH_GRAY_GLOWING_BUILDING_BLOCK.get());
@@ -114,6 +122,8 @@ public class ModCreativeTabs {
                 output.accept(ModBlocks.BLACK_STAIRS_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.BLACK_BORDER_WALL.get());
                 output.accept(ModBlocks.BLACK_THIN_BORDER_WALL.get());
+                
+
                 
                 // 新增72个颜色方块系列 - 第一批4个颜色
                 output.accept(ModBlocks.N_HB_BUILDING_BLOCK.get());
@@ -475,10 +485,41 @@ public class ModCreativeTabs {
             .title(Component.translatable("itemGroup.a_3_urbanforma_other"))
             .icon(() -> new ItemStack(ModBlocks.WHITE_BUILDING_BLOCK.get()))
             .displayItems((parameters, output) -> {
-                // 白色玻璃方块
+                // 白色系列玻璃和玻璃片
                 output.accept(ModBlocks.WHITE_GLASS.get());
-                // 白色玻璃片方块
                 output.accept(ModBlocks.WHITE_GLASS_PANE.get());
+                
+                // 亮灰系列玻璃和玻璃片
+                output.accept(ModBlocks.LIGHT_GRAY_1_GLASS.get());
+                output.accept(ModBlocks.LIGHT_GRAY_1_GLASS_PANE.get());
+                output.accept(ModBlocks.LIGHT_GRAY_2_GLASS.get());
+                output.accept(ModBlocks.LIGHT_GRAY_2_GLASS_PANE.get());
+                output.accept(ModBlocks.LIGHT_GRAY_3_GLASS.get());
+                output.accept(ModBlocks.LIGHT_GRAY_3_GLASS_PANE.get());
+                
+                // 中灰系列玻璃和玻璃片
+                output.accept(ModBlocks.MEDIUM_GRAY_1_GLASS.get());
+                output.accept(ModBlocks.MEDIUM_GRAY_1_GLASS_PANE.get());
+                output.accept(ModBlocks.MEDIUM_GRAY_2_GLASS.get());
+                output.accept(ModBlocks.MEDIUM_GRAY_2_GLASS_PANE.get());
+                output.accept(ModBlocks.MEDIUM_GRAY_3_GLASS.get());
+                output.accept(ModBlocks.MEDIUM_GRAY_3_GLASS_PANE.get());
+                
+                // 暗灰系列玻璃和玻璃片
+                output.accept(ModBlocks.DARK_GRAY_1_GLASS.get());
+                output.accept(ModBlocks.DARK_GRAY_1_GLASS_PANE.get());
+                output.accept(ModBlocks.DARK_GRAY_2_GLASS.get());
+                output.accept(ModBlocks.DARK_GRAY_2_GLASS_PANE.get());
+                output.accept(ModBlocks.DARK_GRAY_3_GLASS.get());
+                output.accept(ModBlocks.DARK_GRAY_3_GLASS_PANE.get());
+                output.accept(ModBlocks.DARK_GRAY_4_GLASS.get());
+                output.accept(ModBlocks.DARK_GRAY_4_GLASS_PANE.get());
+                
+                // 黑灰和黑色系列玻璃和玻璃片
+                output.accept(ModBlocks.BLACKISH_GRAY_GLASS.get());
+                output.accept(ModBlocks.BLACKISH_GRAY_GLASS_PANE.get());
+                output.accept(ModBlocks.BLACK_GLASS.get());
+                output.accept(ModBlocks.BLACK_GLASS_PANE.get());
             })
             .build());
 

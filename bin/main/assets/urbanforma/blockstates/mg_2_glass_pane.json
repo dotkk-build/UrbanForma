@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": { 
+      "model": "urbanforma:block/mg_2_glass_pane_north",
+      "uvlock": true 
+    },
+    "facing=east": { 
+      "model": "urbanforma:block/mg_2_glass_pane_east",
+      "uvlock": true 
+    },
+    "facing=south": { 
+      "model": "urbanforma:block/mg_2_glass_pane_south",
+      "uvlock": true 
+    },
+    "facing=west": { 
+      "model": "urbanforma:block/mg_2_glass_pane_west",
+      "uvlock": true 
+    }
+  }
+}
