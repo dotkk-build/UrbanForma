@@ -94,6 +94,46 @@ public class ModBlocks {
     // 白色细边墙方块
     public static final RegistryObject<Block> WHITE_THIN_BORDER_WALL = registerThinBorderWallBlock("w_bb_thin_border");
     
+    // 亮灰系列边墙和细边墙
+    public static final RegistryObject<Block> LIGHT_GRAY_1_BORDER_WALL = registerBorderWallBlock("lg_1_bb_border");
+    public static final RegistryObject<Block> LIGHT_GRAY_1_THIN_BORDER_WALL = registerThinBorderWallBlock("lg_1_bb_thin_border");
+    
+    public static final RegistryObject<Block> LIGHT_GRAY_2_BORDER_WALL = registerBorderWallBlock("lg_2_bb_border");
+    public static final RegistryObject<Block> LIGHT_GRAY_2_THIN_BORDER_WALL = registerThinBorderWallBlock("lg_2_bb_thin_border");
+    
+    public static final RegistryObject<Block> LIGHT_GRAY_3_BORDER_WALL = registerBorderWallBlock("lg_3_bb_border");
+    public static final RegistryObject<Block> LIGHT_GRAY_3_THIN_BORDER_WALL = registerThinBorderWallBlock("lg_3_bb_thin_border");
+    
+    // 中灰系列边墙和细边墙
+    public static final RegistryObject<Block> MEDIUM_GRAY_1_BORDER_WALL = registerBorderWallBlock("mg_1_bb_border");
+    public static final RegistryObject<Block> MEDIUM_GRAY_1_THIN_BORDER_WALL = registerThinBorderWallBlock("mg_1_bb_thin_border");
+    
+    public static final RegistryObject<Block> MEDIUM_GRAY_2_BORDER_WALL = registerBorderWallBlock("mg_2_bb_border");
+    public static final RegistryObject<Block> MEDIUM_GRAY_2_THIN_BORDER_WALL = registerThinBorderWallBlock("mg_2_bb_thin_border");
+    
+    public static final RegistryObject<Block> MEDIUM_GRAY_3_BORDER_WALL = registerBorderWallBlock("mg_3_bb_border");
+    public static final RegistryObject<Block> MEDIUM_GRAY_3_THIN_BORDER_WALL = registerThinBorderWallBlock("mg_3_bb_thin_border");
+    
+    // 暗灰系列边墙和细边墙
+    public static final RegistryObject<Block> DARK_GRAY_1_BORDER_WALL = registerBorderWallBlock("dg_1_bb_border");
+    public static final RegistryObject<Block> DARK_GRAY_1_THIN_BORDER_WALL = registerThinBorderWallBlock("dg_1_bb_thin_border");
+    
+    public static final RegistryObject<Block> DARK_GRAY_2_BORDER_WALL = registerBorderWallBlock("dg_2_bb_border");
+    public static final RegistryObject<Block> DARK_GRAY_2_THIN_BORDER_WALL = registerThinBorderWallBlock("dg_2_bb_thin_border");
+    
+    public static final RegistryObject<Block> DARK_GRAY_3_BORDER_WALL = registerBorderWallBlock("dg_3_bb_border");
+    public static final RegistryObject<Block> DARK_GRAY_3_THIN_BORDER_WALL = registerThinBorderWallBlock("dg_3_bb_thin_border");
+    
+    public static final RegistryObject<Block> DARK_GRAY_4_BORDER_WALL = registerBorderWallBlock("dg_4_bb_border");
+    public static final RegistryObject<Block> DARK_GRAY_4_THIN_BORDER_WALL = registerThinBorderWallBlock("dg_4_bb_thin_border");
+    
+    // 黑灰和黑色系列边墙和细边墙
+    public static final RegistryObject<Block> BLACKISH_GRAY_BORDER_WALL = registerBorderWallBlock("bg_bb_border");
+    public static final RegistryObject<Block> BLACKISH_GRAY_THIN_BORDER_WALL = registerThinBorderWallBlock("bg_bb_thin_border");
+    
+    public static final RegistryObject<Block> BLACK_BORDER_WALL = registerBorderWallBlock("b_bb_border");
+    public static final RegistryObject<Block> BLACK_THIN_BORDER_WALL = registerThinBorderWallBlock("b_bb_thin_border");
+    
     // 白色玻璃方块
     public static final RegistryObject<Block> WHITE_GLASS = registerBlock("w_glass", () -> new com.urbanforma.block.WhiteGlassBlock());
     

@@ -4,6 +4,19 @@
 
 ---
 
+## 版本历史
+
+### v1.07a - 2025-12-02
+**边墙和细边墙物品栏位置调整**
+- 调整边墙和细边墙在创造模式物品栏中的位置，使它们与对应颜色的方块系列放在一起
+- 亮灰1-3的边墙和细边墙现在会紧跟在亮灰1-3的方块后面
+- 中灰1-3的边墙和细边墙现在会紧跟在中灰1-3的方块后面
+- 暗灰1-4的边墙和细边墙现在会紧跟在暗灰1-4的方块后面
+- 黑灰和黑色的边墙和细边墙现在会紧跟在黑灰和黑色的方块后面
+- 更新版本到 1.07a
+
+---
+
 ## 1. 项目概况 (Overview)
 
 - **模组名称**: UrbanForma (都市构方)
@@ -12,9 +25,9 @@
 - **主类**: `com.urbanforma.UrbanForma`
 - **项目定位**: 这是一个专注于现代城市建设的装饰性模组，提供大量高精度的道路标线、路缘石以及丰富的彩色建筑方块。
 - **开发原则**:
-    1. **一致性**: 优先遵循现有的代码风格和命名规范，保持代码库的整洁。
-    2. **参考性**: 仅在创建全新内容类型（如新的实体或复杂的方块逻辑）时，参考 [Boson 教程](https://boson.v2mcdev.com/) 的设计概念。
-    3. **本地化**: 所有新添加的内容必须同步更新 `zh_cn.json` 语言文件。
+  1. **一致性**: 优先遵循现有的代码风格和命名规范，保持代码库的整洁。
+  2. **参考性**: 仅在创建全新内容类型（如新的实体或复杂的方块逻辑）时，参考 [Boson 教程](https://boson.v2mcdev.com/) 的设计概念。
+  3. **本地化**: 所有新添加的内容必须同步更新 `zh_cn.json` 语言文件。
 
 ---
 
@@ -67,13 +80,13 @@ d:\UrbanForma\
 
 添加一个新方块时，必须完整创建以下 5 类资源文件，缺一不可：
 
-| 资源类型 | 路径示例 (`assets/urbanforma/...`) | 详细说明 |
-| :--- | :--- | :--- |
-| **Blockstate** | `blockstates/my_block.json` | **状态映射**。定义方块的 `variants`（变种）。对于普通方块，通常映射到单一模型；对于方向性方块，需定义 `facing=north` 等状态对应的旋转角度 (`y` 轴旋转)。 |
-| **Block Model** | `models/block/my_block.json` | **几何模型**。定义方块的形状（`parent`）和纹理（`textures`）。普通方块通常继承 `block/cube_all`；自定义形状方块需指定具体的父模型或自定义元素。 |
-| **Item Model** | `models/item/my_block.json` | **物品展示**。定义方块在玩家手中、物品栏或掉落时的外观。通常直接继承对应的 Block Model (`parent: urbanforma:block/my_block`)。 |
-| **Texture** | `textures/block/my_block.png` | **纹理贴图**。实际的图片文件。建议使用 16x16 像素的标准 Minecraft 风格贴图。 |
-| **Lang (CN)** | `lang/zh_cn.json` | **本地化名称**。格式为 `"block.urbanforma.registry_name": "中文名称"`。请务必保持键名与注册名一致。 |
+| 资源类型              | 路径示例 (`assets/urbanforma/...`) | 详细说明                                                                                                                                                             |
+| :-------------------- | :----------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Blockstate**  | `blockstates/my_block.json`        | **状态映射**。定义方块的 `variants`（变种）。对于普通方块，通常映射到单一模型；对于方向性方块，需定义 `facing=north` 等状态对应的旋转角度 (`y` 轴旋转)。 |
+| **Block Model** | `models/block/my_block.json`       | **几何模型**。定义方块的形状（`parent`）和纹理（`textures`）。普通方块通常继承 `block/cube_all`；自定义形状方块需指定具体的父模型或自定义元素。          |
+| **Item Model**  | `models/item/my_block.json`        | **物品展示**。定义方块在玩家手中、物品栏或掉落时的外观。通常直接继承对应的 Block Model (`parent: urbanforma:block/my_block`)。                               |
+| **Texture**     | `textures/block/my_block.png`      | **纹理贴图**。实际的图片文件。建议使用 16x16 像素的标准 Minecraft 风格贴图。                                                                                   |
+| **Lang (CN)**   | `lang/zh_cn.json`                  | **本地化名称**。格式为 `"block.urbanforma.registry_name": "中文名称"`。请务必保持键名与注册名一致。                                                          |
 
 ---
 
@@ -145,19 +158,18 @@ if (event.getTabKey() == ModCreativeTabs.URBANFORMA_BASE_TAB.getKey()) {
 
 - **构建模组**:
 
-    ```powershell
-    cd d:\UrbanForma\Forge\1.20.1; gradle build
-    ```
+  ```powershell
+  cd d:\UrbanForma\Forge\1.20.1; gradle build
+  ```
 
-    此命令会编译代码并生成 `.jar` 文件，通常位于 `build/libs` 目录下。
-
+  此命令会编译代码并生成 `.jar` 文件，通常位于 `build/libs` 目录下。
 - **启动测试客户端**:
 
-    ```powershell
-    cd d:\UrbanForma\Forge\1.20.1; .\gradlew runClient
-    ```
+  ```powershell
+  cd d:\UrbanForma\Forge\1.20.1; .\gradlew runClient
+  ```
 
-    此命令会启动一个独立的 Minecraft 客户端环境，用于测试模组功能。
+  此命令会启动一个独立的 Minecraft 客户端环境，用于测试模组功能。
 
 ---
 
@@ -275,6 +287,7 @@ if (event.getTabKey() == ModCreativeTabs.URBANFORMA_BASE_TAB.getKey()) {
 ### 6.2 更新记录格式
 
 每个版本更新应包含：
+
 - 版本号和发布日期
 - 新增内容 (🆕)
 - 改进和优化 (🔧)
@@ -286,9 +299,11 @@ if (event.getTabKey() == ModCreativeTabs.URBANFORMA_BASE_TAB.getKey()) {
 ## 7. 版本历史记录 (Version History)
 
 ### v1.07 - 2025-12-01
+
 **白色玻璃系统添加和调整**
 
 #### 🆕 新增内容
+
 - **白色玻璃方块**: 添加了白色玻璃方块 (WHITE_GLASS)，透明材质，适合作为建筑窗户玻璃
 - **白色玻璃片方块**: 添加了白色玻璃片方块 (WHITE_GLASS_PANE)，基于白色细边墙的4像素宽玻璃片，支持四方向旋转
 - **玻璃方块类**: 实现了WhiteGlassBlock类，继承自GlassBlock
@@ -296,39 +311,46 @@ if (event.getTabKey() == ModCreativeTabs.URBANFORMA_BASE_TAB.getKey()) {
 - **资源文件**: 为两种新方块创建了完整的方块状态、模型、物品模型和语言文件
 
 #### 🎯 功能特性
+
 - **透明渲染**: 实现了白色玻璃和白色玻璃片的透明渲染层设置
 - **UV贴图映射**: 优化了白色玻璃片的UV贴图映射，确保只显示4像素宽区域的贴图
 - **智能放置方向**: 默认放置方向比玩家面向的方向逆时针旋转180度
 
 #### 📚 技术文档更新
+
 - 更新了URBANFORMA_DEV_MANUAL.md，添加了白色玻璃和白色玻璃片的特殊功能类说明
 - 在命名规范中增加了玻璃和玻璃片的说明
 
 ### v1.06 - 2025-11-30
+
 **边墙系统完善和技术规范统一**
 
 #### 🆕 新增内容
+
 - **边墙方块系统**: 添加了白色边墙方块 (WHITE_BORDER_WALL)
 - **细边墙方块**: 添加了白色细边墙方块 (WHITE_THIN_BORDER_WALL)
 - **四方向旋转**: 两种边墙方块均支持完整的四方向旋转
 - **自定义碰撞体积**: 实现了与视觉效果一致的精确碰撞体积
-- **自定义方块类**: 
+- **自定义方块类**:
   - BorderWallBlock: 半宽方块(8像素)
   - ThinBorderWallBlock: 细边墙方块(4像素)
 
 #### 🎯 功能特性
+
 - **智能放置方向**: 默认放置方向比玩家面向的方向顺时针旋转90度
 - **精确碰撞体积**: 8像素和4像素宽度与视觉效果完全匹配
 - **旋转支持**: 北、南、东、西四个方向的完整支持
 - **纹理一致性**: 使用现有的 b_white.png 贴图，保持视觉风格统一
 
 #### 🔧 技术改进
+
 - 完整的方块状态和模型定义
 - 简化的注册方法 (registerBorderWallBlock, registerThinBorderWallBlock)
 - 标准化的创造模式物品栏分类
 - 完整的中英双语本地化支持
 
 #### 📚 文档更新
+
 - 更新开发手册中的方块参考和命名规则
 - 完善边墙方块的技术文档和使用说明
 - 添加自定义方块类的详细说明
@@ -336,14 +358,17 @@ if (event.getTabKey() == ModCreativeTabs.URBANFORMA_BASE_TAB.getKey()) {
 ---
 
 ### v1.05d - 2025-11-23
+
 **文件结构重组和韩语翻译修复**
 
 #### 🆕 新增内容
+
 - **文件结构重组**: 重新组织项目文件结构，支持多版本开发
 - **新目录结构**: 创建了 Forge/1.20.1 子目录结构
 - **文档更新**: 更新了所有文档以反映新的文件结构
 
 #### 🔧 技术改进
+
 - 修复了韩语翻译缺失问题
 - 更新了所有构建命令路径
 - 优化了项目目录结构，为未来版本支持做准备
@@ -351,14 +376,17 @@ if (event.getTabKey() == ModCreativeTabs.URBANFORMA_BASE_TAB.getKey()) {
 ---
 
 ### v1.05c - 2025-11-05
+
 **韩语本地化和版本更新**
 
 #### 🌍 本地化
+
 - **韩语语言支持**: 添加了完整的韩语本地化文件 (ko_kr.json)
 - **专业翻译**: 使用了地道的韩语术语和颜色命名
 - **完整覆盖**: 翻译了全部72个彩色建筑块系列和道路系统组件
 
 #### 🔧 技术改进
+
 - 更新模组版本为 1.05c
 - 增强了多语言支持系统
 - 改进了本地化一致性
@@ -366,14 +394,17 @@ if (event.getTabKey() == ModCreativeTabs.URBANFORMA_BASE_TAB.getKey()) {
 ---
 
 ### v1.05b - 2025-11-05
+
 **日语本地化和版本更新**
 
 #### 🌍 本地化
+
 - **日语语言支持**: 添加了完整的日语本地化文件 (ja_jp.json)
 - **专业翻译**: 使用了地道的日语术语和传统颜色名称
 - **完整覆盖**: 翻译了全部72个彩色建筑块系列和道路系统组件
 
 #### 🔧 技术改进
+
 - 更新模组版本为 1.05b
 - 增强了语言文件结构一致性
 - 改进了国际化支持
@@ -381,14 +412,17 @@ if (event.getTabKey() == ModCreativeTabs.URBANFORMA_BASE_TAB.getKey()) {
 ---
 
 ### v1.03 - 2025-10-31
+
 **白色中线高路缘石增强**
 
 #### 🆕 新增内容
+
 - **白色中线高路缘石**: 添加了7个带白色中线的方向性高路缘石方块 (r_wl_h1 to r_wl_h7)
 - **方向性功能**: 实现了 DirectionalHeightRoadBlock 以实现正确的方向放置
 - **纹理优化**: 更新顶面纹理使用 r_gray_l1.png 以保持一致外观
 
 #### 🔧 技术改进
+
 - 修复了方向面对的方块状态配置
 - 增强了纹理映射与适当的变量引用
 - 改进了 ModBlocks.java 中的方块注册一致性
@@ -396,9 +430,11 @@ if (event.getTabKey() == ModCreativeTabs.URBANFORMA_BASE_TAB.getKey()) {
 ---
 
 ### v1.02 - 2025-10-31
+
 **道路系统增强**
 
 #### 🆕 新增内容
+
 - **道路方块系统**: 添加了35个带白色标记的道路方块 (r_wl1 to r_wl35)
 - **方向性道路方块**: 实现了 DirectionalRoadBlock 用于方向性放置
 - **道路标记类型**:
@@ -408,6 +444,7 @@ if (event.getTabKey() == ModCreativeTabs.URBANFORMA_BASE_TAB.getKey()) {
   - 45度曲线及其反向变体
 
 #### 🔧 技术改进
+
 - 增强了 ModBlocks.java 的综合道路方块注册
 - 更新了创造模式物品栏的道路方块分类
 - 为所有道路方块提供了完整的中文本地化
@@ -416,44 +453,29 @@ if (event.getTabKey() == ModCreativeTabs.URBANFORMA_BASE_TAB.getKey()) {
 ---
 
 ### v1.0.0 - 2025-10-29
+
 **初始发布**
 
 #### 🆕 新增内容
+
 - **基础模组框架**: 完整的 Forge 1.20.1 模组结构
 - **建筑方块**:
+
   - 都市方块 (urban_block)
-  - 现代方块 (modern_block) 
-  - 玻璃幕墙 (glass_curtain_wall)
-- **功能物品**:
-  - 都市面包 (urban_bread) - 可食用食物
-  - 蓝图 (blueprint)
-  - 建筑工具 (building_tool)
+  - 现代方块 (modern_block)
 - **UI支持**:
+
   - 自定义创造模式物品栏
   - 完整的中文和英文语言文件
 - **技术特性**:
+
   - 完整的方块状态和模型定义
   - 标准 META-INF 配置
   - Gradle 构建系统配置
 
 #### 🔧 技术改进
+
 - 基于 Forge 47.2.0 构建
 - 支持 Minecraft 1.20.1
 - 使用 Java 17 编译
 - 完整的构建和开发环境配置
-
----
-
-## 8. 未来版本规划 (Future Planning)
-
-### v1.1.0 (计划中)
-- [ ] 添加方块纹理
-- [ ] 实现建筑工具功能
-- [ ] 添加合成配方
-- [ ] 优化创造模式分类
-
-### v1.2.0 (计划中)  
-- [ ] 添加更多建筑方块变体
-- [ ] 实现蓝图使用功能
-- [ ] 添加建筑结构生成
-- [ ] 优化性能

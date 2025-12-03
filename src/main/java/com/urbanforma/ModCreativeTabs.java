@@ -31,65 +31,89 @@ public class ModCreativeTabs {
                 output.accept(ModBlocks.LIGHT_GRAY_1_GLOWING_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.LIGHT_GRAY_1_SLAB_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.LIGHT_GRAY_1_STAIRS_BUILDING_BLOCK.get());
+                output.accept(ModBlocks.LIGHT_GRAY_1_BORDER_WALL.get());
+                output.accept(ModBlocks.LIGHT_GRAY_1_THIN_BORDER_WALL.get());
                 
                 output.accept(ModBlocks.LIGHT_GRAY_2_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.LIGHT_GRAY_2_GLOWING_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.LIGHT_GRAY_2_SLAB_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.LIGHT_GRAY_2_STAIRS_BUILDING_BLOCK.get());
+                output.accept(ModBlocks.LIGHT_GRAY_2_BORDER_WALL.get());
+                output.accept(ModBlocks.LIGHT_GRAY_2_THIN_BORDER_WALL.get());
                 
                 output.accept(ModBlocks.LIGHT_GRAY_3_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.LIGHT_GRAY_3_GLOWING_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.LIGHT_GRAY_3_SLAB_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.LIGHT_GRAY_3_STAIRS_BUILDING_BLOCK.get());
+                output.accept(ModBlocks.LIGHT_GRAY_3_BORDER_WALL.get());
+                output.accept(ModBlocks.LIGHT_GRAY_3_THIN_BORDER_WALL.get());
                 
                 // 中灰系列方块 (1-3)
                 output.accept(ModBlocks.MEDIUM_GRAY_1_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.MEDIUM_GRAY_1_GLOWING_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.MEDIUM_GRAY_1_SLAB_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.MEDIUM_GRAY_1_STAIRS_BUILDING_BLOCK.get());
+                output.accept(ModBlocks.MEDIUM_GRAY_1_BORDER_WALL.get());
+                output.accept(ModBlocks.MEDIUM_GRAY_1_THIN_BORDER_WALL.get());
                 
                 output.accept(ModBlocks.MEDIUM_GRAY_2_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.MEDIUM_GRAY_2_GLOWING_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.MEDIUM_GRAY_2_SLAB_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.MEDIUM_GRAY_2_STAIRS_BUILDING_BLOCK.get());
+                output.accept(ModBlocks.MEDIUM_GRAY_2_BORDER_WALL.get());
+                output.accept(ModBlocks.MEDIUM_GRAY_2_THIN_BORDER_WALL.get());
                 
                 output.accept(ModBlocks.MEDIUM_GRAY_3_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.MEDIUM_GRAY_3_GLOWING_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.MEDIUM_GRAY_3_SLAB_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.MEDIUM_GRAY_3_STAIRS_BUILDING_BLOCK.get());
+                output.accept(ModBlocks.MEDIUM_GRAY_3_BORDER_WALL.get());
+                output.accept(ModBlocks.MEDIUM_GRAY_3_THIN_BORDER_WALL.get());
                 
                 // 暗灰系列方块 (1-4)
                 output.accept(ModBlocks.DARK_GRAY_1_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.DARK_GRAY_1_GLOWING_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.DARK_GRAY_1_SLAB_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.DARK_GRAY_1_STAIRS_BUILDING_BLOCK.get());
+                output.accept(ModBlocks.DARK_GRAY_1_BORDER_WALL.get());
+                output.accept(ModBlocks.DARK_GRAY_1_THIN_BORDER_WALL.get());
                 
                 output.accept(ModBlocks.DARK_GRAY_2_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.DARK_GRAY_2_GLOWING_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.DARK_GRAY_2_SLAB_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.DARK_GRAY_2_STAIRS_BUILDING_BLOCK.get());
+                output.accept(ModBlocks.DARK_GRAY_2_BORDER_WALL.get());
+                output.accept(ModBlocks.DARK_GRAY_2_THIN_BORDER_WALL.get());
                 
                 output.accept(ModBlocks.DARK_GRAY_3_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.DARK_GRAY_3_GLOWING_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.DARK_GRAY_3_SLAB_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.DARK_GRAY_3_STAIRS_BUILDING_BLOCK.get());
+                output.accept(ModBlocks.DARK_GRAY_3_BORDER_WALL.get());
+                output.accept(ModBlocks.DARK_GRAY_3_THIN_BORDER_WALL.get());
                 
                 output.accept(ModBlocks.DARK_GRAY_4_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.DARK_GRAY_4_GLOWING_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.DARK_GRAY_4_SLAB_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.DARK_GRAY_4_STAIRS_BUILDING_BLOCK.get());
+                output.accept(ModBlocks.DARK_GRAY_4_BORDER_WALL.get());
+                output.accept(ModBlocks.DARK_GRAY_4_THIN_BORDER_WALL.get());
                 
                 // 黑灰系列方块
                 output.accept(ModBlocks.BLACKISH_GRAY_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.BLACKISH_GRAY_GLOWING_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.BLACKISH_GRAY_SLAB_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.BLACKISH_GRAY_STAIRS_BUILDING_BLOCK.get());
+                output.accept(ModBlocks.BLACKISH_GRAY_BORDER_WALL.get());
+                output.accept(ModBlocks.BLACKISH_GRAY_THIN_BORDER_WALL.get());
                 
                 // 黑色系列方块
                 output.accept(ModBlocks.BLACK_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.BLACK_GLOWING_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.BLACK_SLAB_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.BLACK_STAIRS_BUILDING_BLOCK.get());
+                output.accept(ModBlocks.BLACK_BORDER_WALL.get());
+                output.accept(ModBlocks.BLACK_THIN_BORDER_WALL.get());
                 
                 // 新增72个颜色方块系列 - 第一批4个颜色
                 output.accept(ModBlocks.N_HB_BUILDING_BLOCK.get());
@@ -342,6 +366,8 @@ public class ModCreativeTabs {
                 output.accept(ModBlocks.BLUE_SEA_PINE_TEA_GLOWING_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.BLUE_SEA_PINE_TEA_SLAB_BUILDING_BLOCK.get());
                 output.accept(ModBlocks.BLUE_SEA_PINE_TEA_STAIRS_BUILDING_BLOCK.get());
+                
+                
 
             })
             .build());
