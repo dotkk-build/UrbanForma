@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "bottom": "urbanforma:block/b_generation_color",
-    "top": "urbanforma:block/b_generation_color",
-    "side": "urbanforma:block/b_generation_color"
-  }
-}

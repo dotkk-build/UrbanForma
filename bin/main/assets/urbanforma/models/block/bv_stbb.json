@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "bottom": "urbanforma:block/b_blue_vermillion",
-    "top": "urbanforma:block/b_blue_vermillion",
-    "side": "urbanforma:block/b_blue_vermillion"
-  }
-}

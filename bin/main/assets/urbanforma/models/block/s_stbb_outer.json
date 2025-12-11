@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/outer_stairs",
-  "textures": {
-    "bottom": "urbanforma:block/b_scarlet",
-    "top": "urbanforma:block/b_scarlet",
-    "side": "urbanforma:block/b_scarlet"
-  }
-}

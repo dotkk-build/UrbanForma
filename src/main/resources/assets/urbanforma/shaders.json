@@ -1,6 +1,0 @@
-{
-    "renders": {
-        "cutout": "cutout_mipped",
-        "translucent": "translucent"
-    }
-}

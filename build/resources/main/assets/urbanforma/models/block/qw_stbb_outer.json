@@ -1,8 +1,0 @@
-{
-  "parent": "block/outer_stairs",
-  "textures": {
-    "bottom": "urbanforma:block/b_rose",
-    "top": "urbanforma:block/b_rose",
-    "side": "urbanforma:block/b_rose"
-  }
-}
