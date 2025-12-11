@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "urbanforma:block/r_wl32", "y": 0 },
+    "facing=east": { "model": "urbanforma:block/r_wl32", "y": 90 },
+    "facing=south": { "model": "urbanforma:block/r_wl32", "y": 180 },
+    "facing=west": { "model": "urbanforma:block/r_wl32", "y": 270 }
+  }
+}

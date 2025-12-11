@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "urbanforma:block/b_medium_gray_1",
+    "north": "urbanforma:block/b_medium_gray_1",
+    "east": "urbanforma:block/b_medium_gray_1",
+    "south": "urbanforma:block/b_medium_gray_1",
+    "west": "urbanforma:block/b_medium_gray_1",
+    "up": "urbanforma:block/b_medium_gray_1",
+    "down": "urbanforma:block/b_medium_gray_1"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 8],
+      "faces": {
+        "north": {"uv": [0, 0, 16, 16], "texture": "#north"},
+        "east": {"uv": [0, 0, 8, 16], "texture": "#east"},
+        "south": {"uv": [0, 0, 16, 16], "texture": "#south"},
+        "west": {"uv": [8, 0, 16, 16], "texture": "#west"},
+        "up": {"uv": [16, 8, 0, 0], "texture": "#up"},
+        "down": {"uv": [16, 0, 0, 8], "texture": "#down"}
+      }
+    }
+  ]
+}

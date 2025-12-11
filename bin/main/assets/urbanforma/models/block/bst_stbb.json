@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "urbanforma:block/b_blue_sea_pine_tea",
+    "top": "urbanforma:block/b_blue_sea_pine_tea",
+    "side": "urbanforma:block/b_blue_sea_pine_tea"
+  }
+}

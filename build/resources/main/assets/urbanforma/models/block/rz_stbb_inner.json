@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "urbanforma:block/b_rouge",
+    "top": "urbanforma:block/b_rouge",
+    "side": "urbanforma:block/b_rouge"
+  }
+}

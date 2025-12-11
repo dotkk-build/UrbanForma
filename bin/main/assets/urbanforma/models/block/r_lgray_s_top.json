@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "urbanforma:block/r_lgray",
+    "top": "urbanforma:block/r_lgray",
+    "side": "urbanforma:block/r_lgray"
+  }
+}

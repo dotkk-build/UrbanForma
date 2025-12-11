@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "urbanforma:block/b_white",
+    "side": "urbanforma:block/b_white"
+  }
+}

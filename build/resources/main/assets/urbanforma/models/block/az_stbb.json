@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "urbanforma:block/b_azalea",
+    "top": "urbanforma:block/b_azalea",
+    "side": "urbanforma:block/b_azalea"
+  }
+}
