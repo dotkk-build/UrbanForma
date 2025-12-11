@@ -1,4 +1,4 @@
-# UrbanForma Minecraft Mod v1.07b————重置中
+# UrbanForma Minecraft Mod v1.07b
 
 ## 项目概述
 UrbanForma是一个Minecraft模组，专注于现代城市建设和都市元素，特别是道路系统和城市基础设施。该模组提供大量高精度的道路标线、路缘石以及丰富的彩色建筑方块，帮助玩家创建逼真的现代都市环境。
