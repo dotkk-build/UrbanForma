@@ -1,63 +1,60 @@
 # UrbanForma
 
-UrbanForma is a Minecraft content mod focused on urban building materials,
-glass, lighting, roads, and related decorative blocks. The project is a
-compatibility port of the original UrbanForma 1.20.1 content for Minecraft
-1.21.1.
+UrbanForma 是一个面向城市建筑的 Minecraft 内容模组，提供建筑材料、玻璃、
+照明、道路和其他城市装饰方块。本项目将原始 UrbanForma 1.20.1 内容迁移到
+Minecraft 1.21.1 的 NeoForge 环境。
 
-## Compatibility
+## 当前公开版本
 
-The current public `main` branch targets:
+- Minecraft：`1.21.1`
+- NeoForge：`21.1.234` 或兼容的更高版本
+- Java：`21`
+- Mod ID：`urbanforma`
+- Mod 版本：`1.1016+mc1.21.1`
+- 许可证：MIT
 
-- Minecraft 1.21.1
-- NeoForge 21.1.234 or newer
-- Java 21
-- Mod ID: `urbanforma`
-- Mod version: `1.1016+mc1.21.1`
+仓库的 `main` 分支是当前公开的 Minecraft 1.21.1 NeoForge 移植版本。
+名为 `1.20.1-Forge` 的分支是旧版 Forge 内容，不能作为当前 `main` 的兼容性声明。
 
-The repository also retains a legacy branch named `1.20.1-Forge`. That branch
-is separate from the current `main` branch and must not be used as the
-compatibility declaration for this release.
+## 依赖
 
-## Installation
+模组 metadata 声明 `urbanforma_neo` 为必需依赖。请确保整合包中的
+Urbanforma:neo 与 Minecraft、NeoForge 版本匹配。
 
-1. Install Minecraft 1.21.1.
-2. Install NeoForge 21.1.234 or a newer compatible NeoForge version.
-3. Run the game with Java 21.
-4. Place the UrbanForma jar in the instance `mods` directory.
-5. The mod metadata declares `urbanforma_neo` as a required dependency. Make
-   sure that dependency is available in the instance when your modpack does
-   not already provide it.
+## 安装
 
-Use the same Minecraft, NeoForge, and Java versions for every mod in the
-instance. The project does not include a bundled runtime, launcher, or game
-directory.
+1. 安装 Minecraft `1.21.1`。
+2. 安装 NeoForge `21.1.234` 或兼容的更高版本。
+3. 使用 Java `21` 启动游戏或服务器。
+4. 将 UrbanForma JAR 和匹配的 Urbanforma:neo 依赖放入实例的 `mods` 文件夹。
+5. 启动游戏或服务器，并在日志中确认相关模组均已加载。
 
-## Building From Source
+客户端和服务器应使用相同的 Minecraft、NeoForge、Java 与模组版本。
+本仓库不包含运行时、启动器或游戏目录。
 
-Install a JDK 21 distribution, then run the Gradle wrapper from the project
-root:
+## 从源码构建
 
-```text
+安装 JDK `21` 后，在项目根目录运行 Gradle Wrapper：
+
+```powershell
 gradlew.bat build
 ```
 
-On a POSIX shell, use:
+在 POSIX shell 中运行：
 
 ```text
 ./gradlew build
 ```
 
-The built jar is written to `build/libs/`. The wrapper and project metadata
-are included so the build can be reproduced without a machine-specific Java
-path in the repository configuration.
+构建产物会生成在 `build/libs/`。仓库包含 Gradle Wrapper 和公开项目 metadata，
+不依赖机器专属的 Java 路径配置。
 
-## Project Status
+## 项目状态
 
-This repository is the public source release for the Minecraft 1.21.1
-NeoForge port. It is provided as-is and does not claim that every feature of
-the original content has reached feature-complete parity.
+本仓库提供 Minecraft 1.21.1 NeoForge 移植的公开源码。它按现状提供，
+不代表原始内容的所有功能都已完成等价迁移。客户端画面、服务器行为和多人联机
+兼容性应在目标环境中分别验证。
 
-## License
+## 许可证
 
-UrbanForma is released under the MIT License. See [LICENSE](LICENSE).
+本项目使用 MIT License，详见 [LICENSE](LICENSE)。
