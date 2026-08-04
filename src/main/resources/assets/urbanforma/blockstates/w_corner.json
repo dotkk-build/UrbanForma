@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": { 
+      "model": "urbanforma:block/w_corner_north",
+      "uvlock": true 
+    },
+    "facing=east": { 
+      "model": "urbanforma:block/w_corner_east",
+      "uvlock": true 
+    },
+    "facing=south": { 
+      "model": "urbanforma:block/w_corner_south",
+      "uvlock": true 
+    },
+    "facing=west": { 
+      "model": "urbanforma:block/w_corner_west",
+      "uvlock": true 
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "textures": {
+    "all": "urbanforma:block/b_white"
+  },
+  "elements": [
+    {
+      "from": [0, 6, 15],
+      "to": [16, 10, 16],
+      "faces": {
+        "north": {"uv": [0, 6, 16, 10], "texture": "#all"},
+        "south": {"uv": [0, 6, 16, 10], "texture": "#all"},
+        "east": {"uv": [15, 6, 16, 10], "texture": "#all"},
+        "west": {"uv": [0, 6, 1, 10], "texture": "#all"},
+        "up": {"uv": [0, 15, 16, 16], "texture": "#all"},
+        "down": {"uv": [0, 15, 16, 16], "texture": "#all"}
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "urbanforma:block/mg_3_thin_vertical_slab"
+    },
+    "facing=east": {
+      "model": "urbanforma:block/mg_3_thin_vertical_slab_east"
+    }
+  }
+}

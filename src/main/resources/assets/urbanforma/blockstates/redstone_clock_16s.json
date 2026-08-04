@@ -1,0 +1,11 @@
+{
+  "multipart": [
+    {
+      "apply": { "model": "urbanforma:block/redstone_clock_16s" }
+    },
+    {
+      "when": { "powered": true },
+      "apply": { "model": "urbanforma:block/redstone_clock_16s_powered" }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "urbanforma:block/redstone_clock_1s"
+    },
+    "powered=true": {
+      "model": "urbanforma:block/redstone_clock_1s"
+    }
+  }
+}

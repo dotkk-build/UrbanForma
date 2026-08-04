@@ -1,0 +1,21 @@
+{
+  "textures": {
+    "particle": "urbanforma:block/b_medium_gray_2",
+    "b_medium_gray_2": "urbanforma:block/b_medium_gray_2"
+  },
+  "elements": [
+    {
+      "from": [0, 7, 15],
+      "to": [16, 9, 16],
+      "rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 15]},
+      "faces": {
+        "north": {"uv": [0, 7, 2, 9], "texture": "#b_medium_gray_2"},
+        "east": {"uv": [0, 7, 1, 9], "texture": "#b_medium_gray_2"},
+        "south": {"uv": [0, 7, 2, 9], "texture": "#b_medium_gray_2"},
+        "west": {"uv": [0, 7, 1, 9], "texture": "#b_medium_gray_2"},
+        "up": {"uv": [2, 1, 0, 0], "texture": "#b_medium_gray_2"},
+        "down": {"uv": [2, 0, 0, 1], "texture": "#b_medium_gray_2"}
+      }
+    }
+  ]
+}

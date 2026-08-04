@@ -1,0 +1,12 @@
+.gradle/
+build/
+run/
+out/
+.idea/
+*.iml
+logs/
+crash-reports/
+
+# Local reverse-engineering reference material; the maintained project is src/.
+decompiled-src/
+g-req-core-urbanforma-1.1016.jar

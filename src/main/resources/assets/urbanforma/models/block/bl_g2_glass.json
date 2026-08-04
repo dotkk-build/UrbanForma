@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "urbanforma:block/bl_g2_1",
+    "particle": "urbanforma:block/bl_g2_1"
+  },
+  "render_type": "translucent"
+}

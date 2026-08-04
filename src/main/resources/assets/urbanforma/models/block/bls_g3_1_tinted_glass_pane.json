@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "urbanforma:block/bls_g3_1_glass"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 4],
+      "faces": {
+        "north": {"uv": [0, 0, 16, 16], "texture": "#particle"},
+        "east": {"uv": [12, 0, 16, 16], "texture": "#particle"},
+        "south": {"uv": [0, 0, 16, 16], "texture": "#particle"},
+        "west": {"uv": [0, 0, 4, 16], "texture": "#particle"},
+        "up": {"uv": [0, 0, 16, 4], "texture": "#particle"},
+        "down": {"uv": [0, 12, 16, 16], "texture": "#particle"}
+      }
+    }
+  ],
+  "render_type": "translucent"
+}

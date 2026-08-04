@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "urbanforma:block/lg_2_center_glass_seam_north",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "urbanforma:block/lg_2_center_glass_seam_east",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "urbanforma:block/lg_2_center_glass_seam_south",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "urbanforma:block/lg_2_center_glass_seam_west",
+      "y": 180
+    }
+  }
+}

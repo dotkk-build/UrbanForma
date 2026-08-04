@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "urbanforma:block/bls_g3_1_glass"
+  }
+}

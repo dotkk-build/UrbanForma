@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "urbanforma:block/bgr_g",
+    "north": "urbanforma:block/bgr_g",
+    "east": "urbanforma:block/bgr_g",
+    "south": "urbanforma:block/bgr_g",
+    "west": "urbanforma:block/bgr_g",
+    "up": "urbanforma:block/bgr_g",
+    "down": "urbanforma:block/bgr_g"
+  }
+}

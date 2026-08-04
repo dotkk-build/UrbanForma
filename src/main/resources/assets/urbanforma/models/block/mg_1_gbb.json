@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "urbanforma:block/b_medium_gray_1"
+  }
+}

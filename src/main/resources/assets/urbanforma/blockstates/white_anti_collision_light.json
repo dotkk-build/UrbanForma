@@ -1,0 +1,52 @@
+{
+  "multipart": [
+    {
+      "when": { "facing": "down" },
+      "apply": { "model": "urbanforma:block/white_anti_collision_light_down" }
+    },
+    {
+      "when": { "facing": "up" },
+      "apply": { "model": "urbanforma:block/white_anti_collision_light_up" }
+    },
+    {
+      "when": { "facing": "north" },
+      "apply": { "model": "urbanforma:block/white_anti_collision_light_north" }
+    },
+    {
+      "when": { "facing": "south" },
+      "apply": { "model": "urbanforma:block/white_anti_collision_light_south" }
+    },
+    {
+      "when": { "facing": "west" },
+      "apply": { "model": "urbanforma:block/white_anti_collision_light_west" }
+    },
+    {
+      "when": { "facing": "east" },
+      "apply": { "model": "urbanforma:block/white_anti_collision_light_east" }
+    },
+    {
+      "when": { "facing": "down", "lit": true },
+      "apply": { "model": "urbanforma:block/white_anti_collision_light_down_lit" }
+    },
+    {
+      "when": { "facing": "up", "lit": true },
+      "apply": { "model": "urbanforma:block/white_anti_collision_light_up_lit" }
+    },
+    {
+      "when": { "facing": "north", "lit": true },
+      "apply": { "model": "urbanforma:block/white_anti_collision_light_north_lit" }
+    },
+    {
+      "when": { "facing": "south", "lit": true },
+      "apply": { "model": "urbanforma:block/white_anti_collision_light_south_lit" }
+    },
+    {
+      "when": { "facing": "west", "lit": true },
+      "apply": { "model": "urbanforma:block/white_anti_collision_light_west_lit" }
+    },
+    {
+      "when": { "facing": "east", "lit": true },
+      "apply": { "model": "urbanforma:block/white_anti_collision_light_east_lit" }
+    }
+  ]
+}

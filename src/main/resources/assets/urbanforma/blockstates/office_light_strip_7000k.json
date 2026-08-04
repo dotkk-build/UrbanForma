@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "urbanforma:block/office_light_strip_7000k_north"
+    },
+    "facing=east": {
+      "model": "urbanforma:block/office_light_strip_7000k_east"
+    },
+    "facing=south": {
+      "model": "urbanforma:block/office_light_strip_7000k_north"
+    },
+    "facing=west": {
+      "model": "urbanforma:block/office_light_strip_7000k_east"
+    }
+  }
+}

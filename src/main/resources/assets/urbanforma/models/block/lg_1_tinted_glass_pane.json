@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_glass_pane_post",
+  "textures": {
+    "pane": "urbanforma:block/lg1_g",
+    "edge": "urbanforma:block/lg1_g"
+  }
+}

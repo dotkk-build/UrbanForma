@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "urbanforma:block/red_vertical_led_north"
+    },
+    "facing=east": {
+      "model": "urbanforma:block/red_vertical_led_east"
+    },
+    "facing=south": {
+      "model": "urbanforma:block/red_vertical_led_south"
+    },
+    "facing=west": {
+      "model": "urbanforma:block/red_vertical_led_west"
+    }
+  }
+}

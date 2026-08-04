@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "up=false": {
+      "model": "urbanforma:block/black_ceiling_floor_down"
+    },
+    "up=true": {
+      "model": "urbanforma:block/black_ceiling_floor_up"
+    }
+  }
+}

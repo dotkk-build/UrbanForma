@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "urbanforma:block/bls_g3_1_glass",
+    "north": "urbanforma:block/bls_g3_1_glass",
+    "east": "urbanforma:block/bls_g3_1_glass",
+    "south": "urbanforma:block/bls_g3_1_glass",
+    "west": "urbanforma:block/bls_g3_1_glass",
+    "up": "urbanforma:block/bls_g3_1_glass",
+    "down": "urbanforma:block/bls_g3_1_glass"
+  },
+  "render_type": "translucent"
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "urbanforma:block/b_crested_ibis",
+    "north": "urbanforma:block/b_crested_ibis",
+    "east": "urbanforma:block/b_crested_ibis",
+    "south": "urbanforma:block/b_crested_ibis",
+    "west": "urbanforma:block/b_crested_ibis",
+    "up": "urbanforma:block/b_crested_ibis",
+    "down": "urbanforma:block/b_crested_ibis"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 1, 16],
+      "faces": {
+        "down": {"uv": [0, 0, 16, 16], "texture": "#down"},
+        "up": {"uv": [0, 0, 16, 16], "texture": "#up"},
+        "north": {"uv": [0, 0, 16, 1], "texture": "#north"},
+        "east": {"uv": [0, 0, 16, 1], "texture": "#east"},
+        "south": {"uv": [0, 0, 16, 1], "texture": "#south"},
+        "west": {"uv": [0, 0, 16, 1], "texture": "#west"}
+      }
+    }
+  ]
+}
